@@ -1,0 +1,725 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+
+- intent: bot_introduction
+  examples: |
+    - Who are you?
+    - Tell me about yourself
+    - What is your name?
+    - Are you a chatbot?
+
+- intent: about_developers
+  examples: |
+    - Who created you?
+    - Who developed you?
+    
+
+- intent: admission_process
+  examples: |
+    - How can I apply for admission?
+    - What is the admission process?
+    - Steps for college admission
+    - admission
+    - How to get into this college?
+
+- intent: fees_structure
+  examples: |
+    - What is the fee structure?
+    - How much is the tuition fee?
+    - What are the fees for computer science?
+    - Can you tell me the fee details?
+
+- intent: hostel_facilities
+  examples: |
+    - Do you have hostel facilities?
+    - Is there accommodation available?
+    - Hostel details
+    - Can I stay on campus?
+
+- intent: contact_information
+  examples: |
+    - What is the contact number for admissions?
+    - How can I reach the college office?
+    - Give me the contact details
+    - College email address?
+    - How can I contact the principal?
+    - How can I contact the secretary?
+    - How can I contact the AO?
+    - How can I contact the AAO?
+
+- intent: vidyaasare_scholarship
+  examples: |
+    - What is the Vidyaasare scholarship program?
+    - Tell me about the Vidyaasare freeship.
+    - What are the details of the scholarship based on CET ranking?
+    - How can I get a fee concession at ATME?
+    - Is there any fee concession for high-ranking students?
+    - scholarship
+    - Are there any scholarships available?
+    - How can I apply for a scholarship?
+    - What are the eligibility criteria for scholarships?
+    - What scholarships does ATME offer?
+
+- intent: courses_offered
+  examples: |
+    - What courses are offered at ATME College of Engineering?
+    - Tell me about the undergraduate courses available.
+    - What are the postgraduate courses available at ATME?
+    - Does ATME offer any specialized engineering programs?
+    - What branches of engineering can I study at ATME?
+    - List the courses available at ATME.
+    - What programs does ATME offer?
+    - Can you tell me about the engineering courses at ATME?
+    - What are the different engineering branches at ATME?
+    - What undergraduate programs are available at ATME?
+    - What postgraduate programs are available at ATME?
+    - What specializations are offered at ATME?
+    - What are the available courses at ATME?
+    - What engineering disciplines can I pursue at ATME?
+    - What are the available UG courses at ATME?
+    - What are the available PG courses at ATME?
+    - What engineering courses can I take at ATME?
+    - What are the different programs offered at ATME?
+    - What are the available engineering programs at ATME?
+    - What courses can I enroll in at ATME?
+
+- intent: placement_assistance
+  examples: |
+    - How does ATME support students with placements?
+    - What is the placement process at ATME College of Engineering?
+    - Does ATME have a placement cell?
+    - What companies visit ATME for placements?
+    - Tell me about the career guidance provided by ATME.
+
+- intent: infrastructure_facilities
+  examples: |
+    - What facilities are available on the ATME campus?
+    - Does ATME have hostel facilities?
+    - Tell me about the infrastructure of ATME College.
+    - What are the student amenities at ATME?
+    - Does ATME provide Wi-Fi on campus?
+
+- intent: extracurricular_activities
+  examples: |
+    - What extracurricular activities are available at ATME?
+    - Does ATME offer any sports or cultural events?
+    - Tell me about the clubs and social initiatives at ATME.
+    - What opportunities are there for student engagement outside academics?
+    - How does ATME support student leadership and personality development?
+
+- intent: research_and_innovation
+  examples: |
+    - What research opportunities are available at ATME?
+    - Does ATME support innovation and entrepreneurship?
+    - Tell me about the research projects at ATME.
+    - Are there any innovation cells at ATME College of Engineering?
+    - How can students get involved in research at ATME?
+
+- intent: fee_structure
+  examples: |
+    - What is the fee structure at ATME?
+    - Can you tell me about the undergraduate fees?
+    - How much does it cost to study at ATME?
+    - Where can I find the fee details for ATME?
+    - Tell me the fees for the courses at ATME.
+    - What is the fee structure for postgraduate courses?
+    - How much does the PG program cost at ATME?
+
+- intent: why_atme
+  examples: |
+    - Why should I choose ATME?
+    - What makes ATME College special?
+    - Tell me the advantages of studying at ATME.
+    - Why is ATME a good choice for engineering?
+    - What are the key features of ATME College?
+
+- intent: college_department_mous
+  examples: |
+    - What are the MOUs with different departments?
+    - Can you tell me about the MOUs of our college?
+    - List the department MOUs at ATME.
+    - What are the collaboration agreements with other colleges?
+    - How many MOUs does ATME have?
+
+- intent: college_statistics_faculties
+  examples: |
+    - How many experienced faculties does ATME have?
+    - Tell me about the faculty at ATME.
+    - What is the number of experienced teachers at ATME?
+
+- intent: college_statistics_companies
+  examples: |
+    - What is the number of companies that visited ATME?
+    - How many companies visit ATME for placements?
+    - Tell me about the companies that visit ATME.
+
+- intent: college_statistics_placements
+  examples: |
+    - What percentage of students are placed from ATME?
+    - How many students get placed from ATME?
+    - Tell me about the placement rate at ATME.
+
+- intent: college_statistics_graduates
+  examples: |
+    - How many students have graduated from ATME?
+    - Tell me about the graduates from ATME.
+    - What is the number of graduates from ATME?
+
+- intent: college_statistics_general
+  examples: |
+    - Can you provide some statistics about ATME?
+    - Tell me some statistics about ATME.
+    - Give me some general statistics about ATME.
+
+- intent: atme_trust_general
+  examples: |
+    - What is the ATME Trust?
+    - Who founded the Academy for Technical & Management Excellence?
+    - What are the objectives of the ATME Trust?
+    - What is the vision of the ATME Trust?
+    - What is the mission of the ATME Trust?
+
+- intent: atme_trust_trustees
+  examples: |
+    - Can you tell me about the trustees of the ATME Trust?
+    - Who is the chairman of the ATME Trust?
+    - What is the experience of Mr. Arun Kumar L?
+    - Who is the treasurer of the ATME Trust?
+    - What are the roles of the trustees in the ATME Trust?
+    - How many trustees are there in the ATME Trust?
+    - Can you list the trustees of the ATME Trust?
+
+- intent: atme_college_of_engineering_general
+  examples: |
+    - What is ATME College of Engineering?
+    - Who founded ATME College of Engineering?
+
+- intent: atme_college_of_engineering_infrastructure
+  examples: |
+    - What kind of infrastructure does ATME College of Engineering have?
+    - What facilities are available at ATME College of Engineering?
+
+- intent: atme_college_of_engineering_industry_ready
+  examples: |
+    - How has ATME College of Engineering developed industry-ready engineers?
+    - What industries have partnered with ATME College of Engineering?
+
+- intent: atme_college_of_engineering_research
+  examples: |
+    - What research facilities are available at ATME College of Engineering?
+    - How many Ph.D. faculty members does ATME College of Engineering have?
+
+- intent: atme_college_of_engineering_extracurricular
+  examples: |
+    - What extracurricular activities are conducted at ATME College of Engineering?
+
+- intent: atme_college_of_engineering_placements
+  examples: |
+    - How does ATME College of Engineering support student placements?
+
+- intent: atme_college_of_engineering_teaching
+  examples: |
+    - What is the teaching-learning process at ATME College of Engineering?
+
+- intent: atme_college_of_engineering_industry_interaction
+  examples: |
+    - Can you tell me about the industry-institute interaction at ATME College of Engineering?
+
+- intent: atme_vision
+  examples: |
+    - What is the vision of ATME College of Engineering?
+
+- intent: atme_mission
+  examples: |
+    - What is the mission of ATME College of Engineering?
+
+- intent: atme_core_values
+  examples: |
+    - What are the core values of ATME College of Engineering?
+
+- intent: atme_educational_goals
+  examples: |
+    - Can you tell me about the educational goals of ATME College of Engineering?
+
+- intent: atme_excellence
+  examples: |
+    - What does ATME College of Engineering strive for in terms of excellence?
+
+- intent: atme_social_responsibility
+  examples: |
+    - How does ATME College of Engineering ensure social responsibility?
+
+- intent: atme_principles
+  examples: |
+    - What principles guide the operations at ATME College of Engineering?
+
+- intent: atme_governing_council_members
+  examples: |
+    - Who are the members of the Governing Council at ATME College of Engineering?
+    - Can you provide details about the Governing Council members?
+
+- intent: atme_governing_council_roles
+  examples: |
+    - What are the roles and responsibilities of the Governing Council?
+    - What are the key responsibilities of the Governing Council at ATME College of Engineering?
+
+- intent: atme_governing_council_chairman
+  examples: |
+    - Who is the Chairman of the Governing Council?
+
+- intent: atme_governing_council_professions
+  examples: |
+    - What is the profession of the members in the Governing Council?
+
+- intent: atme_governing_council_contribution
+  examples: |
+    - How does the Governing Council contribute to ATME College of Engineering?
+
+- intent: chairman_message
+  examples: |
+    - What is the Chairman's message at ATME College of Engineering?
+    - Can you provide the message from the Chairman of ATME?
+    - What does the Chairman of ATME say to students and parents?
+    - Tell me about the Chairman's welcome message at ATME College.
+
+- intent: qs_i_gauge
+  examples: |
+    - What is the QS I�GAUGE rating for ATME College of Engineering?
+    - Tell me about ATME College's achievements in QS I�GAUGE.
+    - What recognition has ATME College received from QS I�GAUGE?
+    - How is ATME College rated by QS I�GAUGE?
+
+- intent: campus_videos
+  examples: |
+    - Show me the campus videos of ATME College of Engineering.
+    - Where can I find videos of ATME College campus?
+    - Do you have any videos of the ATME campus?
+    - ATME College of Engineering videos
+
+- intent: deans
+  examples: |
+    - Who is the Dean of Research at ATME College of Engineering?
+    - Can you tell me about the Dean of Student Affairs?
+    - Who are the deans at ATME College?
+    - Information about the Deans at ATME.
+
+- intent: principal
+  examples: |
+    - Who is the Principal of ATME College of Engineering?
+    - Tell me about the Principal of ATME.
+    - Principal's message at ATME.
+    - Information on the Principal of ATME College.
+
+- intent: academic_council_overview
+  examples: |
+    - What is the Academic Council at ATME?
+    - Tell me about the Academic Council of ATME.
+    - Academic Council overview at ATME.
+
+- intent: academic_council_members
+  examples: |
+    - Who are the members of the Academic Council at ATME?
+    - List the members of the Academic Council.
+    - Academic Council members at ATME.
+
+- intent: academic_council_meetings
+  examples: |
+    - How often does the Academic Council meet?
+    - Tell me about the Academic Council meetings at ATME.
+    - Details of Academic Council meetings.
+
+- intent: academic_council_roles_responsibilities
+  examples: |
+    - What are the roles and responsibilities of the Academic Council?
+    - Describe the functions of the Academic Council at ATME.
+    - Academic Council's duties at ATME.
+
+- intent: all_departments
+  examples: |
+    - What are the departments available?
+    - List all the departments in your college.
+    - Tell me about all the departments.
+    - Departments in the institution
+    - What courses are available at your college?
+    - List all departments available in ATME
+
+- intent: ug_programs
+  examples: |
+    - What UG programs are available?
+    - List the UG departments.
+    - Tell me about undergraduate programs.
+    - Undergraduate departments
+    - What are the courses in UG?
+
+- intent: pg_programs
+  examples: |
+    - What PG programs are available?
+    - List the PG departments.
+    - Tell me about postgraduate programs.
+    - Postgraduate departments
+    - What are the courses in PG?
+
+- intent: basic_science
+  examples: |
+    - What subjects are under Basic Science?
+    - List the Basic Science departments.
+    - Tell me about Basic Science subjects.
+    - Basic Science departments
+    - What are the courses in Basic Science?
+
+- intent: library
+  examples: |
+    - Tell me about the library
+    - Do you have a library?
+    - Information about the library
+    - Library details
+    - How can I access the library?
+
+- intent: placements
+  examples: |
+    - Tell me about placements
+    - How are the placements at your college?
+    - Do you have a placement cell?
+    - Information about placements
+    - How does the placement process work?
+
+- intent: sports
+  examples: |
+    - Tell me about sports facilities
+    - Do you have sports activities?
+    - Information about sports
+    - What sports can we play?
+    - Sports facilities at the campus
+
+- intent: civil_engineering_department
+  examples: |
+    - Tell me about the Department of Civil Engineering
+    - What is the Civil Engineering department like?
+    - Information about the Civil Engineering department
+    - Civil Engineering department details
+    - Overview of the Civil Engineering department
+
+- intent: civil_engineering_hod_message
+  examples: |
+    - Message from the Civil Engineering HOD
+    - HOD's message for Civil Engineering department
+    - What does the HOD of Civil Engineering say?
+    - Civil Engineering HOD's note
+
+- intent: civil_engineering_vision
+  examples: |
+    - What is the vision of the Civil Engineering department?
+    - Civil Engineering department vision statement
+    - Department of Civil Engineering vision
+
+- intent: civil_engineering_mission
+  examples: |
+    - What is the mission of the Civil Engineering department?
+    - Civil Engineering department mission statement
+    - Department of Civil Engineering mission
+
+- intent: civil_engineering_peos
+  examples: |
+    - What are the PEOs of Civil Engineering?
+    - Program Educational Objectives of Civil Engineering
+    - Civil Engineering PEOs
+
+- intent: civil_engineering_psos
+  examples: |
+    - What are the PSOs of Civil Engineering?
+    - Program Specific Outcomes of Civil Engineering
+    - Civil Engineering PSOs
+
+- intent: civil_engineering_short_term_goals
+  examples: |
+    - What are the short-term goals of the Civil Engineering department?
+    - Civil Engineering department short-term goals
+    - Short-term goals for Civil Engineering
+
+- intent: civil_engineering_long_term_goals
+  examples: |
+    - What are the long-term goals of the Civil Engineering department?
+    - Civil Engineering department long-term goals
+    - Long-term goals for Civil Engineering
+
+- intent: civil_engineering_courses
+  examples: |
+    - What courses are offered by the Civil Engineering department?
+    - Civil Engineering department courses
+    - Courses available in Civil Engineering
+
+- intent: civil_engineering_faculty_contact
+  examples: |
+    - Who are the faculty members of the Civil Engineering department?
+    - Civil Engineering department faculty contact details
+    - Faculty in charge of Civil Engineering department
+
+- intent: infrastructure_facilities
+  examples: |
+    - What are the infrastructure and facilities available in the Civil Engineering department?
+    - Tell me about the facilities in the Civil Engineering department.
+    - Does the Civil Engineering department have multimedia projectors?
+    - Describe the infrastructure of the Civil Engineering department.
+
+- intent: department_library
+  examples: |
+    - What resources are available in the Civil Engineering department library?
+    - Tell me about the department library for Civil Engineering.
+    - What books and materials are in the Civil Engineering department library?
+    - Describe the library in the Civil Engineering department.
+
+- intent: building_material_testing_lab
+  examples: |
+    - What is available in the Building Material Testing Laboratory?
+    - Tell me about the Building Material Testing Laboratory.
+    - What equipment is in the Building Material Testing Laboratory?
+    - Describe the Building Material Testing Laboratory.
+
+- intent: basic_surveying_practice_lab
+  examples: |
+    - What is available in the Basic Surveying Practice lab?
+    - Tell me about the Basic Surveying Practice lab.
+    - What instruments are in the Basic Surveying Practice lab?
+    - Describe the Basic Surveying Practice lab.
+
+- intent: fluid_mechanics_lab
+  examples: |
+    - What equipment is in the Fluid Mechanics Laboratory?
+    - Tell me about the Fluid Mechanics Laboratory.
+    - Describe the Fluid Mechanics Laboratory.
+    - What facilities are available in the Fluid Mechanics lab?
+
+- intent: engineering_geology_lab
+  examples: |
+    - What equipment is in the Engineering Geology Laboratory?
+    - Tell me about the Engineering Geology Laboratory.
+    - Describe the Engineering Geology lab.
+    - What facilities are available in the Engineering Geology lab?
+
+- intent: computer_aided_engineering_drawing_lab
+  examples: |
+    - What is in the Computer Aided Engineering Drawing Laboratory?
+    - Tell me about the Computer Aided Engineering Drawing lab.
+    - What software is used in the Engineering Drawing lab?
+    - Describe the Computer Aided Engineering Drawing lab.
+
+- intent: geo_technical_engineering_lab
+  examples: |
+    - What equipment is in the Geo Technical Engineering Laboratory?
+    - Tell me about the Geo Technical Engineering lab.
+    - Describe the Geo Technical Engineering lab.
+    - What facilities are available in the Geo Technical lab?
+
+- intent: environmental_engineering_lab
+  examples: |
+    - What equipment is in the Environmental Engineering Laboratory?
+    - Tell me about the Environmental Engineering lab.
+    - What facilities are available in the Environmental Engineering lab?
+    - Describe the Environmental Engineering lab.
+
+- intent: concrete_highway_material_testing_lab
+  examples: |
+    - What equipment is in the Concrete & Highway Material Testing Laboratory?
+    - Tell me about the Concrete & Highway Material Testing lab.
+    - Describe the Concrete & Highway Material Testing lab.
+    - What facilities are available in the Concrete lab?
+
+- intent: teaching_staff_details
+  examples: |
+    - Who are the teaching staff in the Civil Engineering department?
+    - Tell me about the faculty in the Civil Engineering department.
+    - List the professors in the Civil Engineering department.
+    - Who teaches in the Civil Engineering department?
+
+- intent: technical_supporting_staff_details
+  examples: |
+    - Who are the technical staff in the Civil Engineering department?
+    - Tell me about the supporting staff in the Civil Engineering department.
+    - List the technical staff in the Civil Engineering department.
+    - Who are the assistants in the Civil Engineering department?
+
+- intent: supporting_staff_details
+  examples: |
+    - Who are the supporting staff in the Civil Engineering department?
+    - Tell me about the supporting staff in the Civil Engineering department.
+    - List the supporting staff in the Civil Engineering department.
+    - Who are the attenders in the Civil Engineering department?
+
+- intent: all_staff_details
+  examples: |
+    - Who are the staff members in the Civil Engineering department?
+    - Tell me about the staff in the Civil Engineering department.
+    - List all staff members in the Civil Engineering department.
+    - Who are the faculty and supporting staff in the Civil Engineering department?
+
+- intent: civil_student_learning_resources
+  examples: |
+    - Tell me about student learning resources
+    - What resources are available for student learning?
+    - Can you provide information on learning resources?
+
+- intent: civil_achievements
+  examples: |
+    - What achievements does the Civil Engineering department have?
+    - Can you share the department's achievements?
+    - Tell me about the accomplishments of the department.
+
+- intent: civil_research_initiatives
+  examples: |
+    - What research initiatives are being undertaken?
+    - Can you tell me about the research projects?
+    - What are the current research initiatives in the department?
+
+- intent: civil_industry_interface
+  examples: |
+    - How does the department interface with industry?
+    - Can you explain the industry collaborations?
+    - What industry connections does the department have?
+
+- intent: civil_placement
+  examples: |
+    - What are the placement opportunities for civil engineering students?
+    - Can you provide details about placements?
+    - How successful are graduates in finding placements?
+
+- intent: civil_co_curricular_activities
+  examples: |
+    - What co-curricular and extra-curricular activities are available?
+    - Can you list the activities for students?
+    - What opportunities are there for involvement outside of class?
+
+- intent: civil_teachers_analysis
+  examples: |
+    - Can you provide analysis on teachers' teaching effectiveness?
+    - What is the teaching analysis for faculty?
+    - How are the teachers evaluated?
+
+- intent: civil_calendar_events
+  examples: |
+    - What events are scheduled for this semester?
+    - Can you share the calendar of events?
+    - What upcoming events should I know about?
+
+- intent: civil_counseling_module
+  examples: |
+    - Is there a counseling module for students?
+    - What counseling services are available?
+    - Can you tell me about the student counseling module?
+
+- intent: civil_e_newsletter
+  examples: |
+    - How can I access the e-newsletter?
+    - Can you tell me about the e-newsletter?
+    - What updates are included in the e-newsletter?
+
+- intent: thank_you
+  examples: |
+    - Thank you
+    - Thanks a lot
+    - Thank you so much
+    - Thanks for the help
+    - I appreciate your assistance
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+    - I am leaving
+    - Catch you later
+    - Talk to you soon
+    - I'm off
+    - See you next time
+    - Farewell
+    - Take care

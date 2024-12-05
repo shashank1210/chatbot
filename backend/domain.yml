@@ -1,0 +1,1016 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - introduction
+  - bot_introduction  
+  - about_developers  
+  - admission_process
+  - fees_structure
+  - hostel_facilities
+  - contact_information
+  - vidyaasare_scholarship
+  - courses_offered
+  - placement_assistance
+  - infrastructure_facilities
+  - extracurricular_activities
+  - research_and_innovation
+  - fee_structure
+  - why_atme
+  - college_department_mous
+  - college_statistics_faculties
+  - college_statistics_companies
+  - college_statistics_placements
+  - college_statistics_graduates
+  - college_statistics_general
+  - atme_trust_general
+  - atme_trust_trustees
+  - atme_college_of_engineering_general
+  - atme_college_of_engineering_infrastructure
+  - atme_college_of_engineering_industry_ready
+  - atme_college_of_engineering_research
+  - atme_college_of_engineering_extracurricular
+  - atme_college_of_engineering_placements
+  - atme_college_of_engineering_teaching
+  - atme_college_of_engineering_industry_interaction
+  - atme_vision
+  - atme_mission
+  - atme_core_values
+  - atme_educational_goals
+  - atme_excellence
+  - atme_social_responsibility
+  - atme_principles
+  - atme_governing_council_members
+  - atme_governing_council_roles
+  - atme_governing_council_chairman
+  - atme_governing_council_professions
+  - atme_governing_council_contribution
+  - chairman_message
+  - qs_i_gauge
+  - campus_videos
+  - deans
+  - principal
+  - academic_council_overview
+  - academic_council_members
+  - academic_council_meetings
+  - academic_council_roles_responsibilities
+  - all_departments
+  - ug_programs
+  - pg_programs
+  - basic_science
+  - library
+  - placements
+  - sports
+  - civil_engineering_department
+  - civil_engineering_hod_message
+  - civil_engineering_vision
+  - civil_engineering_mission
+  - civil_engineering_peos
+  - civil_engineering_psos
+  - civil_engineering_short_term_goals
+  - civil_engineering_long_term_goals
+  - civil_engineering_courses
+  - civil_engineering_faculty_contact
+  - department_library
+  - building_material_testing_lab
+  - basic_surveying_practice_lab
+  - fluid_mechanics_lab
+  - engineering_geology_lab
+  - computer_aided_engineering_drawing_lab
+  - geo_technical_engineering_lab
+  - environmental_engineering_lab
+  - concrete_highway_material_testing_lab
+  - teaching_staff_details
+  - technical_supporting_staff_details
+  - supporting_staff_details
+  - all_staff_details
+  - civil_student_learning_resources
+  - civil_achievements
+  - civil_research_initiatives
+  - civil_industry_interface
+  - civil_placement
+  - civil_co_curricular_activities
+  - civil_teachers_analysis
+  - civil_calendar_events
+  - civil_counseling_module
+  - civil_e_newsletter
+  - thank_you
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  
+
+  utter_introduction:
+    - text: "Hello! I am Atmeya, the official chatbot of ATME College of Engineering. I'm here to answer FAQs and provide information about ATME College."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/introduction"
+          link: "https://atme.in"
+  utter_bot_introduction:
+    - text: "hi! i am Atmeya nice to meet you. How can I assist you today?"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/bot_introduction"
+          link: "https://atme.in"
+  utter_about_developers:
+    - text: "I was developed by Team DevSquad as part of their final year engineering project for the batch of 2021-2025. How can I assist you today?"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/bot_introduction"
+          link: "https://atme.in"
+  
+  utter_admission_process:
+    - text: "To apply for admission, you need to fill out the online application form available on our college website and submit the required documents."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/admission_process"
+          link: "https://atme.in"
+  utter_fees_structure:
+    - text: "The fee structure varies depending on the course. Please visit the fee section on our website for detailed information."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/fees_structure"
+          link: "https://atme.in"
+  utter_hostel_facilities:
+    - text: "Yes, we have separate hostels for boys and girls with all necessary amenities. Please visit our hostel section for more details."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/hostel_facilities"
+          link: "https://atme.in"
+  utter_contact_information:
+    - text: "You can contact the office at +91-821-41 91 551 or email us at info@atme.edu. For admission-related queries, you can contact the following:
+
+Secretary: +91-94482-85651
+Principal: +91-94482-85641
+AO: +91-94486-78271
+AAO: +91-94482-85644
+
+Email: admissions@atme.edu.in"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/contact_information"
+          link: "https://atme.in"
+  utter_vidyaasare_scholarship:
+    - text: "The Vidyaasare Freeship/Scholarship program at ATME College of Engineering provides various concessions based on CET ranking or PCM%:
+
+1. CET Ranking 1 to 5000: Free tuition, college, and transportation fees for all 4 years.
+2. CET Ranking 5001 to 10000 or >95% in PCM: 50% concession on tuition, college, and transportation fees for all 4 years.
+3. CET Ranking 10001 to 20000 or 90% to 95% in PCM: 25% concession on tuition, college, and transportation fees for all 4 years.
+4. CET Ranking 20001 to 25000: 25% concession on tuition, college, and transportation fees for the first 2 years.
+5. CET Ranking 25001 to 35000: 25% concession on tuition, college, and transportation fees for the first year only.
+
+Note: Tuition fee concession is extended only for direct admission under management quota and is subject to change. For more details, visit [ATME Scholarships](https://atme.edu.in/scholarships/) or contact admissions@atme.edu.in."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/vidyaasare_scholarship"
+          link: "https://atme.in"
+  utter_courses_offered:
+    - text: "ATME College of Engineering offers a variety of undergraduate and postgraduate courses in different branches of engineering. The available courses include:
+
+1. Undergraduate Programs:
+- Computer Science and Engineering
+- Electronics and Communication Engineering
+- Mechanical Engineering
+- Civil Engineering
+- Electrical and Electronics Engineering
+
+2. Postgraduate Programs:
+- Master of Technology (M.Tech) in Computer Science and Engineering
+- Master of Technology (M.Tech) in Digital Electronics and Communication
+- Master of Technology (M.Tech) in Machine Design
+
+For more details, visit [ATME Courses](https://atme.edu.in/courses/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/courses_offered"
+          link: "https://atme.in"
+  utter_placement_assistance:
+    - text: "ATME College of Engineering has a dedicated Career Guidance and Placement Cell (CGPC) that assists students in career development. The CGPC helps with placements, higher education, entrepreneurship, and civil services. Students have the opportunity to engage in specialized training and certification courses from the 4th to 7th semesters to enhance their employability. ATME has partnerships with various national and international companies, providing students with numerous job opportunities. For more details, please visit the Career Guidance section on the official website."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/placement_assistance"
+          link: "https://atme.in"
+
+  utter_infrastructure_facilities:
+    - text: "ATME College of Engineering offers the following facilities:
+1. Digital Classrooms
+2. State-of-the-art Laboratories
+3. Library
+4. Transportation Services
+5. On-Campus Hostel
+6. Seminar Hall
+7. Cafeteria
+8. Play Ground
+9. Wi-Fi Access
+10. ATM on campus. These facilities are designed to provide a comfortable and conducive learning environment for all students. For more details, you can visit the ATME campus or their website."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/infrastructure_facilities"
+          link: "https://atme.in"
+
+  utter_extracurricular_activities:
+    - text: "ATME College of Engineering believes in the holistic development of students and offers a wide range of extracurricular activities including:
+1. Sports
+2. Cultural Events
+3. Technical Clubs
+4. Social Initiatives
+These activities help students develop leadership skills, explore their interests, and enhance their personalities, preparing them to be well-rounded individuals."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/extracurricular_activities"
+          link: "https://atme.in"
+  utter_research_and_innovation:
+    - text: "ATME College of Engineering provides ample opportunities for students to engage in research projects, present papers at national and international conferences, and collaborate on cutting-edge research initiatives. The college also has innovation and entrepreneurship cells to support students in transforming their ideas into viable products and startups."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/research_and_innovation"
+          link: "https://atme.in"
+  utter_fee_structure:
+    - text: "You can find the detailed fee structure for undergraduate courses at ATME College of Engineering by visiting the following link: [UG Fee Structure](https://atme.edu.in/ug-fees-structure/). For postgraduate courses, please refer to this link: [PG Fee Structure](https://atme.edu.in/pg-fees-structure/). For detailed information about the fees for various courses at ATME, check these links: Undergraduate Courses: [UG Fee Structure](https://atme.edu.in/ug-fees-structure/) and Postgraduate Courses: [PG Fee Structure](https://atme.edu.in/pg-fees-structure/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/fee_structure"
+          link: "https://atme.in"
+  
+  utter_why_atme:
+    - text: "Here are some reasons why ATME College of Engineering stands out:
+
+1. Futuristic infrastructure with modern facilities.
+2. Highly qualified, experienced, and dedicated faculty members.
+3. Prestigious accreditations including NBA, NAAC 'A+' grade, and Gold Ranking by QS-i Gauge.
+4. Strong collaborations with leading industries for real-world exposure.
+5. Career counselling and guidance programs for personalized career development.
+6. Encouragement of research and innovation among students and faculty.
+7. Wide range of extracurricular activities for all-round development.
+8. Dedicated placement cell for comprehensive career support.
+9. Current-day environment for professional development to global standards.
+10. Pervasive culture of excellence and numerous sports achievements.
+11. Certification courses from renowned industries for skill development.
+12. Digital classrooms for effective learning.
+13. Promoted by the best names in education, technology, and social service. ATME College offers a holistic learning experience combining academic excellence, industry exposure, and personal development opportunities. For more details, visit www.atme.edu.in."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/why_atme"
+          link: "https://atme.in"
+  utter_college_department_mous:
+    - text: "Our college has several MOUs with various departments. You can check the details on the official website: [ATME MOUs](https://atme.edu.in/atmemous/#1724232563679-d19f96b7-c60f)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/college_department_mous"
+          link: "https://atme.in"
+    - text: "ATME has signed collaboration agreements with various institutions to enhance educational and research opportunities. For more information, visit: [ATME MOUs](https://atme.edu.in/atmemous/#1724232563679-d19f96b7-c60f)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/college_department_mous"
+          link: "https://atme.in"
+    - text: "You can find a comprehensive list of department MOUs on the ATME website under the MOU section: [ATME MOUs](https://atme.edu.in/atmemous/#1724232563679-d19f96b7-c60f)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/college_department_mous"
+          link: "https://atme.in"
+    - text: "The college's MOUs aim to promote academic collaboration, research projects, and student exchanges. Visit: [ATME MOUs](https://atme.edu.in/atmemous/#1724232563679-d19f96b7-c60f) for details."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/college_department_mous"
+          link: "https://atme.in"
+  utter_college_statistics_faculties:
+    - text: "ATME has over 200 experienced faculties dedicated to student success."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/college_statistics_faculties"
+          link: "https://atme.in"
+  utter_college_statistics_companies:
+    - text: "More than 250 companies have visited ATME for recruitment and collaborations."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/college_statistics_companies"
+          link: "https://atme.in"
+  utter_college_statistics_placements:
+    - text: "Approximately 80% of the students from ATME are placed in reputable organizations."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/college_statistics_placements"
+          link: "https://atme.in"
+  utter_college_statistics_graduates:
+    - text: "Over 2000 students have graduated from ATME, contributing to various fields."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/college_statistics_graduates"
+          link: "https://atme.in"
+  utter_college_statistics_general:
+    - text: "For more statistics and information about ATME, visit the official website: [ATME](https://atme.edu.in/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/college_statistics_general"
+          link: "https://atme.in"
+  utter_atme_trust_general:
+    - text: "The ATME Trust, or Academy for Technical & Management Excellence, was founded by Mr. Arun Kumar L and a group of like-minded individuals in 2007. The ATME Trust aims to empower the younger generation with quality education, fostering professionals, entrepreneurs, and leaders in various fields. The objectives of the ATME Trust include promoting research in socially relevant areas, developing alliances with industry and academia, and enhancing educational value through community involvement. The vision of the ATME Trust is to create future leaders who are competent, innovative, ethical, and focused on societal improvement. The mission of the ATME Trust includes creating institutes of excellence, generating new knowledge through research, and encouraging entrepreneurship through education. For more details, visit: [ATME Trust](https://atme.edu.in/atme-trust/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_trust_general"
+          link: "https://atme.in"
+  utter_atme_trust_trustees:
+    - text: "The trustees of the ATME Trust include experienced professionals from various fields, each contributing their expertise to the trust's mission. Mr. Arun Kumar L, the chairman of the ATME Trust, has 30 years of experience in infrastructure management. Mr. K. Shivashankar, the secretary of the ATME Trust, has 32 years of experience in liaisoning and business development. Mr. R. Veeresh, the treasurer, has 30 years of experience in project execution, focusing on innovative technologies. Mr. H. Venkatesh is a Civil Engineering Graduate from the University of Mysuru with 30 years of experience in various infrastructure projects. He has executed many electrical projects involving H.T & L.T Lines, setting up distribution transformer centers (15 KVA to 500 KVA), and construction of transmission towers and lines (33 KVA to 220 KVA). Mr. Dhirendra Kumar R Mehta is a former visiting Lecturer at Sharada Vilas Law College for 7 years, passed Intermediate Chartered Accountancy, and is a member of the Bar Council of Karnataka. Prof. K. R. Mallikarjunappa is an ex-Member of the Legislative Council, retired Professor in Economics, and involved in several educational societies. Mrs. Nooreain is a member of Gem Educational Society and Naunehall Educational Society, and former Treasurer of Inner Wheel – Rotary Mid Town. The ATME Trust has a total of 7 trustees who play a vital role in guiding the trust's initiatives. For more details, visit: [ATME Trust](https://atme.edu.in/atme-trust/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_trust_trustees"
+          link: "https://atme.in"
+  utter_atme_college_of_engineering_general:
+    - text: "ATME College of Engineering, founded in 2010 by a group of like-minded technocrats, aims to develop industry-ready engineers. The founders of ATME College of Engineering have experience in managing various enterprises, including infrastructure companies, manufacturing units, and IT services. For more details, visit: [ATME College of Engineering](https://atme.edu.in/about-atme-ce/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_college_of_engineering_general"
+          link: "https://atme.in"
+  utter_atme_college_of_engineering_infrastructure:
+    - text: "ATME College of Engineering boasts a futuristic infrastructure with 3 lakh sq ft of built-up area, state-of-the-art labs, seminar halls, an auditorium, a library, and a central computing facility. The facilities at ATME College of Engineering include modern laboratories, seminar halls, an auditorium equipped with the latest technology, a library, and a central computing facility. For more details, visit: [ATME College of Engineering](https://atme.edu.in/about-atme-ce/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_college_of_engineering_infrastructure"
+          link: "https://atme.in"
+  utter_atme_college_of_engineering_industry_ready:
+    - text: "ATME College of Engineering focuses on developing industry-ready engineers through innovative teaching methods, robust support systems, and engagement in co-curricular and extracurricular activities. ATME College of Engineering has established MOUs with several industries, including TOYOTA, SKILLFINITY, CISCO, VIVARTAN, TPC, and Sri Alliance Mechatronics for internships, placements, and skill enhancement. For more details, visit: [ATME College of Engineering](https://atme.edu.in/about-atme-ce/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_college_of_engineering_industry_ready"
+          link: "https://atme.in"
+  utter_atme_college_of_engineering_research:
+    - text: "ATME College of Engineering excels in research with 6 research centers and approximately 25 Ph.D. qualified faculty members, along with 28 research scholars currently engaged in research activities. The college has a strong research profile with 25 Ph.D. qualified faculty members and 28 research scholars actively conducting research projects. For more information, visit: [ATME College of Engineering](https://atme.edu.in/about-atme-ce/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_college_of_engineering_research"
+          link: "https://atme.in"
+  utter_atme_college_of_engineering_extracurricular:
+    - text: "ATME College of Engineering conducts various co-curricular and extracurricular activities to promote all-round development among students. For details, visit: [ATME College of Engineering](https://atme.edu.in/about-atme-ce/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_college_of_engineering_extracurricular"
+          link: "https://atme.in"
+  utter_atme_college_of_engineering_placements:
+    - text: "ATME College of Engineering has a dedicated placement support system that actively engages with industries to facilitate student placements. For more details, visit: [ATME College of Engineering](https://atme.edu.in/about-atme-ce/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_college_of_engineering_placements"
+          link: "https://atme.in"
+  utter_atme_college_of_engineering_teaching:
+    - text: "The teaching-learning process at ATME College of Engineering is designed to foster industry interaction and practical exposure, enhancing the overall educational experience. Learn more at: [ATME College of Engineering](https://atme.edu.in/about-atme-ce/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_college_of_engineering_teaching"
+          link: "https://atme.in"
+  utter_atme_college_of_engineering_industry_interaction:
+    - text: "ATME College of Engineering promotes regular industry-institute interaction to bridge the gap between academics and industry needs, fostering collaboration and practical learning. For more details, visit: [ATME College of Engineering](https://atme.edu.in/about-atme-ce/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_college_of_engineering_industry_interaction"
+          link: "https://atme.in"
+  utter_atme_vision:
+    - text: "The vision of ATME College of Engineering is the development of academically excellent, culturally vibrant, socially responsible, and globally competent human resources. For more details, visit: [Vision and Mission](https://atme.edu.in/vision-mission/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_vision"
+          link: "https://atme.in"
+  utter_atme_mission:
+    - text: "The mission of ATME College of Engineering includes keeping pace with advancements in knowledge, creating an environment for students to acquire essential foundations, and striving for ever-higher benchmarks of educational excellence. Learn more at: [Vision and Mission](https://atme.edu.in/vision-mission/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_mission"
+          link: "https://atme.in"
+  utter_atme_core_values:
+    - text: "The core values of ATME College of Engineering are Ethics, Integrity, Excellence, Innovation, Collaboration, and Social Responsibility. For more information, visit: [Vision and Mission](https://atme.edu.in/vision-mission/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_core_values"
+          link: "https://atme.in"
+  utter_atme_educational_goals:
+    - text: "ATME College of Engineering aims to make students competitive and capable at a global level, preparing them to be torchbearers of tomorrow's society. For more details, visit: [Vision and Mission](https://atme.edu.in/vision-mission/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_educational_goals"
+          link: "https://atme.in"
+  utter_atme_excellence:
+    - text: "The college strives to attain ever-higher benchmarks of educational excellence, focusing on continuous improvement and adaptability. Learn more at: [Vision and Mission](https://atme.edu.in/vision-mission/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_excellence"
+          link: "https://atme.in"
+  utter_atme_social_responsibility:
+    - text: "ATME College of Engineering emphasizes social responsibility by fostering a sense of duty and contribution to the community among its students. For details, visit: [Vision and Mission](https://atme.edu.in/vision-mission/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_social_responsibility"
+          link: "https://atme.in"
+  utter_atme_principles:
+    - text: "The principles guiding ATME College of Engineering include a strong commitment to ethics, integrity, innovation, and collaboration, ensuring a well-rounded educational approach. For more information, visit: [Vision and Mission](https://atme.edu.in/vision-mission/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_principles"
+          link: "https://atme.in"
+  utter_atme_governing_council_members:
+    - text: "The Governing Council of ATME College of Engineering includes the following members: 1) Shri. Arun Kumar L (Chairman, Technocrat),
+            2) Shri. Shivashankar K (Member, Technocrat),
+            3) Shri. Veeresh R (Member, Technocrat),
+            4) Shri. Venkatesh H (Member, Technocrat),
+            5) Shri. Dhirendra Kumar R Mehta (Member, Advocate),
+            6) Prof. K.R. Mallikarjunappa (Member, Academic),
+            7) Dr. Shakeeb Ur Rahman (Member),
+            8) Dr. K. Chidananda Gowda (Member),
+            9) Dr. Shyam Vasudev Rao (Member, Industrialist),
+            10) S. R. Mahesh (Member, Industrialist),
+            11) Dr. Bhagyashree (Member, Faculty Representative),
+            12) Director, SWRO, AICTE, Bengaluru (Member, AICTE Nominee),
+            13) Dr. N Krishne Gowda (Member, VTU Nominee),
+            14) Director, DTE, Bangalore (Member, State Govt. Nominee),
+            15) Dr. Basavarj L (Member Secretary, Principal of the Institute).
+            For more details, visit: [Governing Council](https://atme.edu.in/governing-council/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_governing_council_members"
+          link: "https://atme.in"
+  utter_atme_governing_council_roles:
+    - text: "The roles and responsibilities of the Governing Council at ATME College of Engineering include formulating policies, framing vision and mission statements, determining infrastructure and teaching requirements, monitoring and evaluating teaching programs, appointing staff, and overseeing faculty development and industry interactions. Key responsibilities of the Governing Council at ATME College of Engineering include monitoring teaching programs, suggesting remedial measures, and ensuring the college meets its educational goals. Learn more at: [Governing Council](https://atme.edu.in/governing-council/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_governing_council_roles"
+          link: "https://atme.in"
+  utter_atme_governing_council_chairman:
+    - text: "The Chairman of the Governing Council at ATME College of Engineering is Shri. Arun Kumar L, a technocrat. For more details, visit: [Governing Council](https://atme.edu.in/governing-council/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_governing_council_chairman"
+          link: "https://atme.in"
+  utter_atme_governing_council_professions:
+    - text: "Members of the Governing Council at ATME College of Engineering come from diverse professions, including technocrats, academicians, advocates, and industrialists. For more information, visit: [Governing Council](https://atme.edu.in/governing-council/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_governing_council_professions"
+          link: "https://atme.in"
+  utter_atme_governing_council_contribution:
+    - text: "The Governing Council contributes to ATME College of Engineering by leveraging the extensive academic, administrative, and research experience of its members to provide direction and oversight to the institution. For details, visit: [Governing Council](https://atme.edu.in/governing-council/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/atme_governing_council_contribution"
+          link: "https://atme.in"
+  utter_chairman_message:
+    - text: "
+Dear Students & Parents,
+Welcome to Academy for Technical & Management Excellence (ATME). Spread over 20 Acres of green expanse, ATME has created an ecosystem of teaching making it a universally accepted place for education, and ATME prides itself in putting the “students first.” Choosing a place to attend college is a big decision that opens the door to a lifetime of opportunities. To read more, visit: [Chairman's Message](https://atme.edu.in/chairman-message/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/chairman_message"
+          link: "https://atme.in"
+  utter_qs_i_gauge:
+    - text: "
+ATME College of Engineering is rated ‘GOLD’ by QS I·GAUGE for its Overall Excellence as a top-notch College. As one of the best-rated colleges in Mysuru, ATME College of Engineering has been excelling in the field of education for more than 10 years. To read more, visit: [QS I·GAUGE Rating](https://atme.edu.in/qs-i-gauge/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/qs_i_gauge"
+          link: "https://atme.in"
+    - text: "
+ATME is proud to receive QS I·GAUGE ‘GOLD’ rating for its overall excellence and has become the 1st College in Mysuru to be awarded in the Engineering Category. Learn more here: [QS I·GAUGE Rating](https://atme.edu.in/qs-i-gauge/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/qs_i_gauge"
+          link: "https://atme.in"
+    - text: "
+ATME College is striving constantly to maintain a global benchmark in imparting first-rate education during the ongoing pandemic. The college’s unique programs are helping students leverage the most out of their degrees. For more details, check: [QS I·GAUGE Rating](https://atme.edu.in/qs-i-gauge/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/qs_i_gauge"
+          link: "https://atme.in"
+  utter_campus_videos:
+    - text: "
+Here are some videos showcasing the ATME College of Engineering campus:
+- [Video 1](https://youtu.be/dpdFQdgATHI)
+- [Video 2](https://youtu.be/BUd4JwNY4Nk)
+- [Video 3](https://youtu.be/SOkXtPZXZok)
+For more videos, visit: [ATME Videos](https://atme.edu.in/atme-videos/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/campus_videos"
+          link: "https://atme.in"
+  utter_deans:
+    - text: "
+**Dean of Research**
+
+- **Dr. S R BHAGYASHREE**
+  Dean-Research, Professor, Department of Electronics & Communication Engineering
+  For more details, visit: [Dr. S R BHAGYASHREE](https://atme.edu.in/dr-s-r-bhagyashree/#1665575273242-b1077197-1985).
+
+**Dean of Student Affairs**
+
+- **Dr. Srinivasa.K**
+  Professor & Dean (Student Affairs)
+  For more details, visit: [Dr. Srinivasa.K](https://atme.edu.in/dr-srinivasa-k/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/deans"
+          link: "https://atme.in"
+  utter_principal:
+    - text: "
+**About the Principal**
+
+- **Dr. L. Basavaraj**
+  Dr. L. Basavaraj completed his bachelor’s degree from Bapuji Institute of Engineering and Technology, Davangere. He started his teaching career as a Lecturer in Electronics and Communication Engineering at STJIT Ranibennur for about three years. After completing his Master's in Digital Electronics at SDM College of Engineering, Dharwad in 1994, he joined Bapuji Institute of Engineering and Technology as a Lecturer in Electronics and Communication Engineering.
+  For more details, visit: [About the Principal](https://atme.edu.in/about-principal/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/principal"
+          link: "https://atme.in"
+    - text: "
+**Principal's Message**
+
+- **Dr. Basavaraj L**
+  'It is my great pleasure to welcome you all to ATME College of Engineering. It is not enough if we produce engineers year after year, like a machine. The challenge lies in molding students with an engineering degree who are capable of building the future nation. ATME gives more emphasis to the overall molding of every student through quality education and In-plant training, right from the initial stage of education. ATME aims at producing the Best Engineers in the world. The pleasing and peaceful environment in which the college is located favors the students in focusing more on their studies. Well-equipped laboratories and workshops with the most modern and sophisticated instruments/machinery are provided to impart state-of-the-art education to the students. Ample opportunities are being provided to the students in Personality Development and other extracurricular activities. Well-qualified and experienced teaching faculty is provided to impart quality education to the students. Invited talks by external experts in various fields of Engineering and Management are being organized regularly for the students to enlarge their horizon of knowledge.
+
+  The college functions under the able and untiring guidance and leadership of Mr. Arunkumar L, Hon’ble Chairman of the Trust, who is actively supported by the Governing Council and the Board of Directors by offering necessary guidance and advice from time to time in developing the Institute to meet the preset mission and vision. A training and placement cell is in place to facilitate the students in seeking job opportunities. With all these facilities in place and with the right attitude of the Management, I assure, the students who continue education in this growing Institute would greatly benefit in the future.
+
+  ATME has ambitious future plans which include starting a Business School with state-of-art technology, PG Courses in different branches of Engineering, establishing a Research Centre, and so on. Development of the people from the rural area in particular has been taken as a part of its Corporate Social Responsibility. I look forward to a bright future to everyone who is associated with the growth of ATME.'
+  For more details, visit: [Principal's Message](https://atme.edu.in/principal-message/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/principal"
+          link: "https://atme.in"
+  utter_academic_council_overview:
+    - text: "
+**Academic Council Overview**
+
+The Academic Council ensures quality in academic activities at ATME College of Engineering. Its main objective is to create a healthy academic atmosphere and enhance the learning experience for the students by monitoring and reviewing their academic journey.
+
+For more details, visit: [Academic Council](https://atme.edu.in/academic-council/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/academic_council_overview"
+          link: "https://atme.in"
+  utter_academic_council_members:
+    - text: "
+**Academic Council Members**
+
+Here are the members of the Academic Council:
+1. **Dr. L Basavaraj** - Chairman
+2. **Dr. M S Govinde Gowda** - Member Secretary
+3. **Dr. Bhagyashree S R** - Member
+4. **Dr. Parthasarathy L** - Member
+5. **Dr. Prathibha M K** - Member
+6. **Dr. Putte Gowda D** - Member
+7. **Dr. Srinivasa K** - Member
+8. **Dr. Mahesh Lohith K S** - Member
+9. **Dr. Nasreen Fathima** - Member
+10. **Manu Vijay** - Member
+11. **Jyothi D N** - Member
+12. **Lakshmi K** - Member
+13. **Divya K** - Member
+14. **Sukumar R**, Director, Cognisite Technologies Pvt. Ltd - Member
+15. **Dr. Mangala Keshava**, BMSCE, Bangalore - Member
+
+For more details, visit: [Academic Council Members](https://atme.edu.in/academic-council/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/academic_council_members"
+          link: "https://atme.in"
+  utter_academic_council_meetings:
+    - text: "
+**Academic Council Meetings**
+
+The Member Secretary shall convene the meetings of the Academic Council at least twice a year or as needed. The meetings require half the members to be present for a quorum. If there is no quorum, the meeting will be rescheduled. In the adjourned meeting, the members present will themselves constitute the quorum.
+
+For more details, visit: [Academic Council Meetings](https://atme.edu.in/academic-council/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/academic_council_meetings"
+          link: "https://atme.in"
+  utter_academic_council_roles_responsibilities:
+    - text: "
+**Roles & Responsibilities of the Academic Council**
+
+The Academic Council at ATME discusses and deliberates upon courses, academic regulations, curricula, evaluation methods, and makes recommendations to improve teaching and learning processes. It advises on policies for extracurricular activities, proposes new study programs, and encourages research, consultancy, and development activities.
+
+For more details, visit: [Academic Council Roles & Responsibilities](https://atme.edu.in/academic-council/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/academic_council_roles_responsibilities"
+          link: "https://atme.in"
+  utter_all_departments:
+    - text: "The departments available are: UG Programs, PG Programs, Basic Science, Humanities, Library, Placements, and Sports."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/all_departments"
+          link: "https://atme.in"
+  utter_ug_programs:
+    - text: "The available UG programs are: Civil Engineering, Computer Science and Engineering, Computer Science Engineering – Data Science, Computer Science Engineering – Artificial Intelligence & Machine Learning, Computer Science & Design, Computer Science Engineering – Cyber Security, Electronics and Communication Engineering, Electrical & Electronics Engineering, and Mechanical Engineering."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/ug_programs"
+          link: "https://atme.in"
+  utter_pg_programs:
+    - text: "The available PG program is: Master of Computer Applications (MCA)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/pg_programs"
+          link: "https://atme.in"
+  utter_basic_science:
+    - text: "The Basic Science departments include: Chemistry, Mathematics, and Physics."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/basic_science"
+          link: "https://atme.in"
+  utter_library:
+    - text: "Yes, the institution has a library that provides a wide range of academic resources for students and faculty."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/library"
+          link: "https://atme.in"
+  utter_placements:
+    - text: "The institution has a dedicated placement cell that helps students find job opportunities and prepares them for the recruitment process."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/placements"
+          link: "https://atme.in"
+  utter_sports:
+    - text: "The institution offers various sports facilities and encourages students to participate in different sports activities."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/sports"
+          link: "https://atme.in"
+  utter_civil_engineering_department:
+    - text: "The Department of Civil Engineering at ATME is focused on producing skilled civil engineers with a strong emphasis on practical knowledge and research. It covers areas like Highway technology, Planning, Design, Construction, and Management, and encourages students to participate in cultural, sports, and technical activities. For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_department"
+          link: "https://atme.in"
+  utter_civil_engineering_hod_message:
+    - text: "The HOD of Civil Engineering emphasizes quality education, practical training, and preparing students to be technically excellent and socially responsible. The department encourages hands-on learning through seminars, workshops, internships, and site visits. For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_hod_message"
+          link: "https://atme.in"
+  utter_civil_engineering_vision:
+    - text: "The vision of the Department of Civil Engineering is to develop globally competent civil engineers who excel in academics, research, and contribute ethically to society's development. For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_vision"
+          link: "https://atme.in"
+  utter_civil_engineering_mission:
+    - text: "The mission is to provide quality education through skilled faculty and infrastructure, solve civil engineering challenges, and promote research, leadership, and entrepreneurship in graduates. For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_mission"
+          link: "https://atme.in"
+  utter_civil_engineering_peos:
+    - text: "The PEOs include professional engagement in various civil engineering disciplines, commitment to lifelong learning, leadership in organizations, and a pathway to professional licensure or entrepreneurship. For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_peos"
+          link: "https://atme.in"
+  utter_civil_engineering_psos:
+    - text: "The PSOs focus on providing infrastructure solutions through effective design and planning, and addressing environmental impacts with sustainable solutions in water resources and transportation. For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_psos"
+          link: "https://atme.in"
+  utter_civil_engineering_short_term_goals:
+    - text: "The short-term goals include building teams for curricular activities, professional growth of faculty, organizing national/international conferences, and promoting R&D in science and technology. For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_short_term_goals"
+          link: "https://atme.in"
+  utter_civil_engineering_long_term_goals:
+    - text: "The long-term goals include upgrading infrastructure, establishing centers of excellence, exposing faculty to industrial processes, and promoting quality research relevant to technological needs. For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_long_term_goals"
+          link: "https://atme.in"
+  utter_civil_engineering_courses:
+    - text: "The Civil Engineering department offers a B.E. program with a duration of 4 years and an intake of 60 students. For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_courses"
+          link: "https://atme.in"
+  utter_civil_engineering_faculty_contact:
+    - text: "4th Semester In-charge: Namitha A P (Email: namithaap_cv@atme.edu.in, Phone: 7349169852), 6th Semester In-charge: Shruthi H G (Email: shruthihg_cv@atme.edu.in, Phone: 9538343733), 8th Semester In-charge: Bharathi B (Email: bharathib_cv@atme.edu.in, Phone: 8496009262). For more details, visit [Civil Engineering Department](https://atme.in/civil-engineering/about-the-department-2/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_engineering_faculty_contact"
+          link: "https://atme.in"
+  utter_department_library:
+    - text: "The Civil Engineering department has a freshly set up library comprising 320 books, including periodicals and reference books, mainly focused on Structural Engineering, Transportation Engineering, Soil Mechanics, Waste Water Engineering, Management, and Technology. It is accessible to both students and faculty. For more details, visit the link: https://atme.in/civil-engineering/4689-2/"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/department_library"
+          link: "https://atme.in"
+  utter_building_material_testing_lab:
+    - text: "The Building Material Testing Laboratory is well-equipped for developing design criteria and evaluating various types of building materials, with facilities to perform tests on concrete and bituminous mixes. Equipment includes Impact Testing Machine, UTM, Torsion, Sieve Analysis tools, Pycnometer, and more. For details, visit the link: https://atme.in/civil-engineering/4689-2/"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/building_material_testing_lab"
+          link: "https://atme.in"
+  utter_basic_surveying_practice_lab:
+    - text: "The Basic Surveying Practice lab provides basic knowledge on various surveying and leveling instruments, including Theodolite, Dumpy level, Total Station, Plain Table, Prismatic Compass, and other surveying tools. For more details, visit the link: https://atme.in/civil-engineering/4689-2/"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/basic_surveying_practice_lab"
+          link: "https://atme.in"
+  utter_fluid_mechanics_lab:
+    - text: "The Fluid Mechanics Laboratory includes experimental setups for fluid flow phenomena, such as Orifice Meter, Venturimeter, V-Notch, Kaplan Turbine, Francis Turbine, Impact of Jet, and Centrifugal Pump. For more details, visit the link: https://atme.in/civil-engineering/4689-2/"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/fluid_mechanics_lab"
+          link: "https://atme.in"
+  utter_engineering_geology_lab:
+    - text: "The Engineering Geology Laboratory identifies the physical properties of minerals with equipment such as Mineral Specimens, Rock Specimens, Plastic Specimen Trays, Streak Plates, Pocket Lens, Pen Knife, and Round Magnets. For more details, visit the link: https://atme.in/civil-engineering/4689-2/"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/engineering_geology_lab"
+          link: "https://atme.in"
+  utter_computer_aided_engineering_drawing_lab:
+    - text: "The Computer Aided Engineering Drawing Laboratory uses computer systems for design modification and optimization, with software such as AutoCAD and Staad Pro. For more details, visit the link: https://atme.in/civil-engineering/4689-2/"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/computer_aided_engineering_drawing_lab"
+          link: "https://atme.in"
+  utter_geo_technical_engineering_lab:
+    - text: "The Geo Technical Engineering Laboratory includes equipment for soil mechanics experiments, such as CBR, Direct Shear, Triaxial Apparatus, UCC Strength, Casagrande Apparatus, and more. For more details, visit the link: https://atme.in/civil-engineering/4689-2/"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/geo_technical_engineering_lab"
+          link: "https://atme.in"
+  utter_environmental_engineering_lab:
+    - text: "The Environmental Engineering Laboratory has sophisticated equipment to analyze pollution parameters, including pH meter, Conductivity, Flame photometer, Spectro-photometer, Turbidity meter, and Muffle furnace. For more details, visit the link: https://atme.in/civil-engineering/4689-2/"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/environmental_engineering_lab"
+          link: "https://atme.in"
+  utter_concrete_highway_material_testing_lab:
+    - text: "The Concrete & Highway Material Testing Laboratory tests various construction materials such as cement, aggregates, concrete, tiles, and bricks. Equipment includes Length Gauge, Vee Bee Apparatus, Bitumen Penetrometer, Tar Viscometer, Concrete Cube Vibrating Table, Vicat Apparatus, and more. For details, visit the link: https://atme.in/civil-engineering/4689-2/"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/concrete_highway_material_testing_lab"
+          link: "https://atme.in"
+  utter_teaching_staff_details:
+    - text: "The Civil Engineering department's teaching staff includes professionals like Mr. Manu Vijay H L, Dr. Syed Shakeeb Ur-Rahman, Dr. Suneeth Kumar S M, Mrs. Shruthi H G, and many more. For the complete list, visit: https://atme.in/civil-engineering/cv-faculty-profile/#1671776074837-e8b8d7c7-58a1"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/teaching_staff_details"
+          link: "https://atme.in"
+  utter_technical_supporting_staff_details:
+    - text: "The technical staff in the Civil Engineering department includes Mr. Jayaram B S, Mr. Manjesh G, Mrs. Priyanka Y P, Mr. Shivanna Nayaka S, and Mr. Muthegowda V. For more details, visit: https://atme.in/civil-engineering/cv-faculty-profile/#1671776074837-e8b8d7c7-58a1"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/technical_supporting_staff_details"
+          link: "https://atme.in"
+  utter_supporting_staff_details:
+    - text: "The supporting staff (attenders) in the Civil Engineering department are Mr. Shivanna Nayaka S and Mr. Muthegowda V. For more details, visit: https://atme.in/civil-engineering/cv-faculty-profile/#1671776074837-e8b8d7c7-58a1"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/supporting_staff_details"
+          link: "https://atme.in"
+  utter_all_staff_details:
+    - text: "The Civil Engineering department has the following staff:
+
+**Teaching Staff**:
+1. Mr. Manu Vijay H L - Associate Professor & HOD
+2. Dr. Syed Shakeeb Ur-Rahman - Adjunct Professor
+3. Dr. Suneeth Kumar S M - Professor
+4. Dr. Seshadri Sekhar N - Professor
+5. Mrs. Shruthi H G - Assistant Professor
+6. Mrs. Jyothi D N - Assistant Professor
+7. Mr. Srivathsa H U - Assistant Professor
+8. Mrs. Bharathi B - Assistant Professor
+9. Mr. Rudresh A N - Assistant Professor
+10. Mr. Shashank P - Assistant Professor
+11. Mr. Puneeth K - Assistant Professor
+12. Ms. Namitha A P - Assistant Professor
+13. Mrs. Akhila C G - Assistant Professor
+
+**Technical Staff**:
+1. Mr. Jayaram B S - Assistant Instructor
+2. Mr. Manjesh G - Assistant Instructor
+3. Mrs. Priyanka Y P - Assistant Instructor
+
+**Supporting Staff**:
+1. Mr. Shivanna Nayaka S - Attender
+2. Mr. Muthegowda V - Attender
+
+For more details, visit: https://atme.in/civil-engineering/cv-faculty-profile/#1671776074837-e8b8d7c7-58a1"
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/all_staff_details"
+          link: "https://atme.in"
+  utter_civil_student_learning_resources:
+    - text: "Our Civil Engineering department offers various **Student Learning Resources** to enhance your academic experience. For more details, visit [Student Learning Centric](https://atme.in/civil-engineering/civil-resources/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_student_learning_resources"
+          link: "https://atme.in"
+
+  utter_civil_achievements:
+    - text: "The Civil Engineering department takes pride in its numerous **achievements**, showcasing our students' and faculty's hard work. Check out our accomplishments at [Achievements](https://atme.in/civil-engineering/civil-achievements/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_achievements"
+          link: "https://atme.in"
+
+  utter_civil_research_initiatives:
+    - text: "We have several **Research Initiatives** aimed at advancing knowledge and technology in civil engineering. You can learn more about these initiatives at [Research Initiatives](https://atme.in/civil-engineering/civil-research-initiatives/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_research_initiatives"
+          link: "https://atme.in"
+
+  utter_civil_industry_interface:
+    - text: "The department maintains strong connections with the industry through our **Industry Interface** programs, ensuring that students are well-prepared for the workforce. Discover more at [Industry Interface](https://atme.in/civil-engineering/civil-industry-interface/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_industry_interface"
+          link: "https://atme.in"
+
+  utter_civil_placement:
+    - text: "Our students benefit from excellent **placement** opportunities, with many securing positions in reputed companies. For more information, visit [Placement](https://atme.in/civil-engineering/placement/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_placement"
+          link: "https://atme.in"
+
+  utter_civil_co_curricular_activities:
+    - text: "We encourage participation in various **co-curricular and extra-curricular activities** to foster a well-rounded education. Explore these activities at [Co-curricular & Extra Curricular Activities](https://atme.in/civil-engineering/co-curricular-extra-curricular-activities/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_co_curricular_activities"
+          link: "https://atme.in"
+
+  utter_civil_teachers_analysis:
+    - text: "We conduct thorough **teachers' teaching analysis** to ensure high educational standards. Learn more at [Teachers Teaching Analysis](https://atme.in/civil-engineering/teachers-teaching-analysis/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_teachers_analysis"
+          link: "https://atme.in"
+
+  utter_civil_calendar_events:
+    - text: "Stay updated with the **Calendar of Events (COE)** to participate in various academic and cultural events. Check it out at [Calendar of Events](https://atme.in/coe-cv/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_calendar_events"
+          link: "https://atme.in"
+
+  utter_civil_counseling_module:
+    - text: "We provide a dedicated **Counseling Module** to support our students' academic and personal development. For details, visit [Counseling Module](https://atme.in/civil-engineering/counselling-module/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_counseling_module"
+          link: "https://atme.in"
+
+  utter_civil_e_newsletter:
+    - text: "Stay informed with our **E-Newsletter**, which provides insights and updates about the department. Access it at [E-News Letter](https://atme.in/civil-engineering/ce-news-letter/)."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/civil_e_newsletter"
+          link: "https://atme.in"
+  utter_thank_you:
+    - text: "You're very welcome! If you have any more questions, feel free to ask."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/thank_you"
+          link: "https://atme.in"
+    - text: "Glad I could help! Let me know if there's anything else you need."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/thank_you"
+          link: "https://atme.in"
+    - text: "You're welcome! Don't hesitate to reach out if you have more queries."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/thank_you"
+          link: "https://atme.in"
+    - text: "Happy to assist you! If you have more questions, I'm here to help."
+      image: ""
+      buttons:
+        - title: "Visit Our Website"
+          payload: "/thank_you"
+          link: "https://atme.in"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,502 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+
+
+
+
+
+- story: introduction
+  steps:
+  - intent: introduction
+  - action: utter_introduction
+
+- story: bot_introduction
+  steps:
+  - intent: bot_introduction
+  - action: utter_bot_introduction
+
+- story: about_developers
+  steps:
+  - intent: about_developers
+  - action: utter_about_developers
+
+- story: admission_process
+  steps:
+  - intent: admission_process
+  - action: utter_admission_process
+
+- story: fees_structure
+  steps:
+  - intent: fees_structure
+  - action: utter_fees_structure
+
+- story: hostel_facilities
+  steps:
+  - intent: hostel_facilities
+  - action: utter_hostel_facilities
+
+- story: contact_information
+  steps:
+  - intent: contact_information
+  - action: utter_contact_information
+
+- story: vidyaasare_scholarship
+  steps:
+  - intent: vidyaasare_scholarship
+  - action: utter_vidyaasare_scholarship
+
+- story: courses_offered
+  steps:
+  - intent: courses_offered
+  - action: utter_courses_offered
+
+- story: placement_assistance
+  steps:
+  - intent: placement_assistance
+  - action: utter_placement_assistance
+
+- story: infrastructure_facilities
+  steps:
+  - intent: infrastructure_facilities
+  - action: utter_infrastructure_facilities
+
+- story: extracurricular_activities
+  steps:
+  - intent: extracurricular_activities
+  - action: utter_extracurricular_activities
+
+- story: research_and_innovation
+  steps:
+  - intent: research_and_innovation
+  - action: utter_research_and_innovation
+
+- story: fee_structure
+  steps:
+  - intent: fee_structure
+  - action: utter_fee_structure
+
+- story: why_atme
+  steps:
+  - intent: why_atme
+  - action: utter_why_atme
+
+- story: college_department_mous
+  steps:
+  - intent: college_department_mous
+  - action: utter_college_department_mous
+
+- story: college_statistics_faculties
+  steps:
+  - intent: college_statistics_faculties
+  - action: utter_college_statistics_faculties
+
+- story: college_statistics_companies
+  steps:
+  - intent: college_statistics_companies
+  - action: utter_college_statistics_companies
+
+- story: college_statistics_placements
+  steps:
+  - intent: college_statistics_placements
+  - action: utter_college_statistics_placements
+
+- story: college_statistics_graduates
+  steps:
+  - intent: college_statistics_graduates
+  - action: utter_college_statistics_graduates
+
+- story: college_statistics_general
+  steps:
+  - intent: college_statistics_general
+  - action: utter_college_statistics_general
+
+- story: atme_trust_general
+  steps:
+  - intent: atme_trust_general
+  - action: utter_atme_trust_general
+
+- story: atme_trust_trustees
+  steps:
+  - intent: atme_trust_trustees
+  - action: utter_atme_trust_trustees
+
+- story: atme_college_of_engineering_general
+  steps:
+  - intent: atme_college_of_engineering_general
+  - action: utter_atme_college_of_engineering_general
+
+- story: atme_college_of_engineering_infrastructure
+  steps:
+  - intent: atme_college_of_engineering_infrastructure
+  - action: utter_atme_college_of_engineering_infrastructure
+
+- story: atme_college_of_engineering_industry_ready
+  steps:
+  - intent: atme_college_of_engineering_industry_ready
+  - action: utter_atme_college_of_engineering_industry_ready
+
+- story: atme_college_of_engineering_research
+  steps:
+  - intent: atme_college_of_engineering_research
+  - action: utter_atme_college_of_engineering_research
+
+- story: atme_college_of_engineering_extracurricular
+  steps:
+  - intent: atme_college_of_engineering_extracurricular
+  - action: utter_atme_college_of_engineering_extracurricular
+
+- story: atme_college_of_engineering_placements
+  steps:
+  - intent: atme_college_of_engineering_placements
+  - action: utter_atme_college_of_engineering_placements
+
+- story: atme_college_of_engineering_teaching
+  steps:
+  - intent: atme_college_of_engineering_teaching
+  - action: utter_atme_college_of_engineering_teaching
+
+- story: atme_college_of_engineering_industry_interaction
+  steps:
+  - intent: atme_college_of_engineering_industry_interaction
+  - action: utter_atme_college_of_engineering_industry_interaction
+
+- story: atme_vision
+  steps:
+  - intent: atme_vision
+  - action: utter_atme_vision
+
+- story: atme_mission
+  steps:
+  - intent: atme_mission
+  - action: utter_atme_mission
+
+- story: atme_core_values
+  steps:
+  - intent: atme_core_values
+  - action: utter_atme_core_values
+
+- story: atme_educational_goals
+  steps:
+  - intent: atme_educational_goals
+  - action: utter_atme_educational_goals
+
+- story: atme_excellence
+  steps:
+  - intent: atme_excellence
+  - action: utter_atme_excellence
+
+- story: atme_social_responsibility
+  steps:
+  - intent: atme_social_responsibility
+  - action: utter_atme_social_responsibility
+
+- story: atme_principles
+  steps:
+  - intent: atme_principles
+  - action: utter_atme_principles
+
+- story: atme_governing_council_members
+  steps:
+  - intent: atme_governing_council_members
+  - action: utter_atme_governing_council_members
+
+- story: atme_governing_council_roles
+  steps:
+  - intent: atme_governing_council_roles
+  - action: utter_atme_governing_council_roles
+
+- story: atme_governing_council_chairman
+  steps:
+  - intent: atme_governing_council_chairman
+  - action: utter_atme_governing_council_chairman
+
+- story: atme_governing_council_professions
+  steps:
+  - intent: atme_governing_council_professions
+  - action: utter_atme_governing_council_professions
+
+- story: atme_governing_council_contribution
+  steps:
+  - intent: atme_governing_council_contribution
+  - action: utter_atme_governing_council_contribution
+
+- story: chairman_message
+  steps:
+  - intent: chairman_message
+  - action: utter_chairman_message
+
+- story: qs_i_gauge
+  steps:
+  - intent: qs_i_gauge
+  - action: utter_qs_i_gauge
+
+- story: campus_videos
+  steps:
+  - intent: campus_videos
+  - action: utter_campus_videos
+
+- story: deans
+  steps:
+  - intent: deans
+  - action: utter_deans
+
+- story: principal
+  steps:
+  - intent: principal
+  - action: utter_principal
+
+- story: academic_council_overview
+  steps:
+  - intent: academic_council_overview
+  - action: utter_academic_council_overview
+
+- story: academic_council_members
+  steps:
+  - intent: academic_council_members
+  - action: utter_academic_council_members
+
+- story: academic_council_meetings
+  steps:
+  - intent: academic_council_meetings
+  - action: utter_academic_council_meetings
+
+- story: academic_council_roles_responsibilities
+  steps:
+  - intent: academic_council_roles_responsibilities
+  - action: utter_academic_council_roles_responsibilities
+
+- story: all_departments
+  steps:
+  - intent: all_departments
+  - action: utter_all_departments
+
+- story: ug_programs
+  steps:
+  - intent: ug_programs
+  - action: utter_ug_programs
+
+- story: pg_programs
+  steps:
+  - intent: pg_programs
+  - action: utter_pg_programs
+
+- story: basic_science
+  steps:
+  - intent: basic_science
+  - action: utter_basic_science
+
+- story: library
+  steps:
+  - intent: library
+  - action: utter_library
+
+- story: placements
+  steps:
+  - intent: placements
+  - action: utter_placements
+
+- story: sports
+  steps:
+  - intent: sports
+  - action: utter_sports
+
+- story: civil_engineering_department
+  steps:
+  - intent: civil_engineering_department
+  - action: utter_civil_engineering_department
+
+- story: civil_engineering_hod_message
+  steps:
+  - intent: civil_engineering_hod_message
+  - action: utter_civil_engineering_hod_message
+
+- story: civil_engineering_vision
+  steps:
+  - intent: civil_engineering_vision
+  - action: utter_civil_engineering_vision
+
+- story: civil_engineering_mission
+  steps:
+  - intent: civil_engineering_mission
+  - action: utter_civil_engineering_mission
+
+- story: civil_engineering_peos
+  steps:
+  - intent: civil_engineering_peos
+  - action: utter_civil_engineering_peos
+
+- story: civil_engineering_psos
+  steps:
+  - intent: civil_engineering_psos
+  - action: utter_civil_engineering_psos
+
+- story: civil_engineering_short_term_goals
+  steps:
+  - intent: civil_engineering_short_term_goals
+  - action: utter_civil_engineering_short_term_goals
+
+- story: civil_engineering_long_term_goals
+  steps:
+  - intent: civil_engineering_long_term_goals
+  - action: utter_civil_engineering_long_term_goals
+
+- story: civil_engineering_courses
+  steps:
+  - intent: civil_engineering_courses
+  - action: utter_civil_engineering_courses
+
+- story: civil_engineering_faculty_contact
+  steps:
+  - intent: civil_engineering_faculty_contact
+  - action: utter_civil_engineering_faculty_contact
+
+- story: infrastructure_facilities
+  steps:
+  - intent: infrastructure_facilities
+  - action: utter_infrastructure_facilities
+
+- story: department_library
+  steps:
+  - intent: department_library
+  - action: utter_department_library
+
+- story: building_material_testing_lab
+  steps:
+  - intent: building_material_testing_lab
+  - action: utter_building_material_testing_lab
+
+- story: basic_surveying_practice_lab
+  steps:
+  - intent: basic_surveying_practice_lab
+  - action: utter_basic_surveying_practice_lab
+
+- story: fluid_mechanics_lab
+  steps:
+  - intent: fluid_mechanics_lab
+  - action: utter_fluid_mechanics_lab
+
+- story: engineering_geology_lab
+  steps:
+  - intent: engineering_geology_lab
+  - action: utter_engineering_geology_lab
+
+- story: computer_aided_engineering_drawing_lab
+  steps:
+  - intent: computer_aided_engineering_drawing_lab
+  - action: utter_computer_aided_engineering_drawing_lab
+
+- story: geo_technical_engineering_lab
+  steps:
+  - intent: geo_technical_engineering_lab
+  - action: utter_geo_technical_engineering_lab
+
+- story: environmental_engineering_lab
+  steps:
+  - intent: environmental_engineering_lab
+  - action: utter_environmental_engineering_lab
+
+- story: concrete_highway_material_testing_lab
+  steps:
+  - intent: concrete_highway_material_testing_lab
+  - action: utter_concrete_highway_material_testing_lab
+
+- story: teaching_staff_details
+  steps:
+  - intent: teaching_staff_details
+  - action: utter_teaching_staff_details
+
+- story: technical_supporting_staff_details
+  steps:
+  - intent: technical_supporting_staff_details
+  - action: utter_technical_supporting_staff_details
+
+- story: supporting_staff_details
+  steps:
+  - intent: supporting_staff_details
+  - action: utter_supporting_staff_details
+
+- story: all_staff_details
+  steps:
+  - intent: all_staff_details
+  - action: utter_all_staff_details
+
+- story: civil_student_learning_resources
+  steps:
+  - intent: civil_student_learning_resources
+  - action: utter_civil_student_learning_resources
+
+- story: civil_achievements
+  steps:
+  - intent: civil_achievements
+  - action: utter_civil_achievements
+
+- story: civil_research_initiatives
+  steps:
+  - intent: civil_research_initiatives
+  - action: utter_civil_research_initiatives
+
+- story: civil_industry_interface
+  steps:
+  - intent: civil_industry_interface
+  - action: utter_civil_industry_interface
+
+- story: civil_placement
+  steps:
+  - intent: civil_placement
+  - action: utter_civil_placement
+
+- story: civil_co_curricular_activities
+  steps:
+  - intent: civil_co_curricular_activities
+  - action: utter_civil_co_curricular_activities
+
+- story: civil_teachers_analysis
+  steps:
+  - intent: civil_teachers_analysis
+  - action: utter_civil_teachers_analysis
+
+- story: civil_calendar_events
+  steps:
+  - intent: civil_calendar_events
+  - action: utter_civil_calendar_events
+
+- story: civil_counseling_module
+  steps:
+  - intent: civil_counseling_module
+  - action: utter_civil_counseling_module
+
+- story: civil_e_newsletter
+  steps:
+  - intent: civil_e_newsletter
+  - action: utter_civil_e_newsletter
+
+- story: thank_you
+  steps:
+  - intent: thank_you
+  - action: utter_thank_you
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+  
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
