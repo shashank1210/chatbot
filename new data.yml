@@ -1,1 +1,168 @@
-intents:
+responses:
+  utter_computer_science_engineering_department:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_hod:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_vision:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_mission:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_peos:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_psos:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_short_term_goals:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_long_term_goals:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_infrastructure_facilities:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_department_library:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_Computer_Science_teaching_staff_details:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_technical_supporting_staff_details:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_supporting_staff_details:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_all_staff_details:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_student_learning_resources:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_achievements:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_research_initiatives:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_industry_interface:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_placement:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_co_curricular_activities:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_teachers_analysis:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_calendar_events:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_counseling_module:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_e_newsletter:
+    - text: ""
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
