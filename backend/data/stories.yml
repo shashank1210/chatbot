@@ -274,6 +274,12 @@ stories:
   - intent: academic_council_roles_responsibilities
   - action: utter_academic_council_roles_responsibilities
 
+- story: all_programs
+  steps:
+  - intent: all_programs
+  - action: utter_all_programs
+
+
 - story: all_departments
   steps:
   - intent: all_departments
@@ -359,15 +365,12 @@ stories:
   - intent: civil_engineering_faculty_contact
   - action: utter_civil_engineering_faculty_contact
 
-- story: infrastructure_facilities
-  steps:
-  - intent: infrastructure_facilities
-  - action: utter_infrastructure_facilities
 
-- story: department_library
+
+- story: civil_department_library
   steps:
-  - intent: department_library
-  - action: utter_department_library
+  - intent: civil_department_library
+  - action: utter_civil_department_library
 
 - story: building_material_testing_lab
   steps:
@@ -409,25 +412,25 @@ stories:
   - intent: concrete_highway_material_testing_lab
   - action: utter_concrete_highway_material_testing_lab
 
-- story: teaching_staff_details
+- story: civil_teaching_staff_details
   steps:
-  - intent: teaching_staff_details
-  - action: utter_teaching_staff_details
+  - intent: civil_teaching_staff_details
+  - action: utter_civil_teaching_staff_details
 
-- story: technical_supporting_staff_details
+- story: civil_technical_supporting_staff_details
   steps:
-  - intent: technical_supporting_staff_details
-  - action: utter_technical_supporting_staff_details
+  - intent: civil_technical_supporting_staff_details
+  - action: utter_civil_technical_supporting_staff_details
 
-- story: supporting_staff_details
+- story: civil_supporting_staff_details
   steps:
-  - intent: supporting_staff_details
-  - action: utter_supporting_staff_details
+  - intent: civil_supporting_staff_details
+  - action: utter_civil_supporting_staff_details
 
-- story: all_staff_details
+- story: civil_all_staff_details
   steps:
-  - intent: all_staff_details
-  - action: utter_all_staff_details
+  - intent: civil_all_staff_details
+  - action: utter_civil_all_staff_details
 
 - story: civil_student_learning_resources
   steps:
@@ -478,6 +481,206 @@ stories:
   steps:
   - intent: civil_e_newsletter
   - action: utter_civil_e_newsletter
+
+- story: computer_science_engineering_department
+  steps:
+  - intent: computer_science_engineering_department
+  - action: utter_computer_science_engineering_department
+
+- story: computer_science_engineering_hod
+  steps:
+  - intent: computer_science_engineering_hod
+  - action: utter_computer_science_engineering_hod
+
+- story: computer_science_engineering_vision
+  steps:
+  - intent: computer_science_engineering_vision
+  - action: utter_computer_science_engineering_vision
+
+- story: computer_science_engineering_mission
+  steps:
+  - intent: computer_science_engineering_mission
+  - action: utter_computer_science_engineering_mission
+
+- story: computer_science_engineering_peos
+  steps:
+  - intent: computer_science_engineering_peos
+  - action: utter_computer_science_engineering_peos
+
+- story: computer_science_engineering_psos
+  steps:
+  - intent: computer_science_engineering_psos
+  - action: utter_computer_science_engineering_psos
+
+- story: computer_science_engineering_short_term_goals
+  steps:
+  - intent: computer_science_engineering_short_term_goals
+  - action: utter_computer_science_engineering_short_term_goals
+
+- story: computer_science_engineering_long_term_goals
+  steps:
+  - intent: computer_science_engineering_long_term_goals
+  - action: utter_computer_science_engineering_long_term_goals
+
+- story: computer_science_infrastructure_facilities
+  steps:
+  - intent: computer_science_infrastructure_facilities
+  - action: utter_computer_science_infrastructure_facilities
+
+- story: computer_science_department_library
+  steps:
+  - intent: computer_science_department_library
+  - action: utter_computer_science_department_library
+
+- story: computer_science_teaching_staff_details
+  steps:
+  - intent: computer_science_teaching_staff_details
+  - action: utter_computer_science_teaching_staff_details
+
+- story: computer_science_technical_supporting_staff_details
+  steps:
+  - intent: computer_science_technical_supporting_staff_details
+  - action: utter_computer_science_technical_supporting_staff_details
+
+- story: computer_science_supporting_staff_details
+  steps:
+  - intent: computer_science_supporting_staff_details
+  - action: utter_computer_science_supporting_staff_details
+
+- story: computer_science_all_staff_details
+  steps:
+  - intent: computer_science_all_staff_details
+  - action: utter_computer_science_all_staff_details
+
+- story: computer_science_student_learning_resources
+  steps:
+  - intent: computer_science_student_learning_resources
+  - action: utter_computer_science_student_learning_resources
+
+- story: computer_science_achievements
+  steps:
+  - intent: computer_science_achievements
+  - action: utter_computer_science_achievements
+
+- story: computer_science_research_initiatives
+  steps:
+  - intent: computer_science_research_initiatives
+  - action: utter_computer_science_research_initiatives
+
+- story: computer_science_industry_interface
+  steps:
+  - intent: computer_science_industry_interface
+  - action: utter_computer_science_industry_interface
+
+- story: computer_science_placement
+  steps:
+  - intent: computer_science_placement
+  - action: utter_computer_science_placement
+
+- story: computer_science_co_curricular_activities
+  steps:
+  - intent: computer_science_co_curricular_activities
+  - action: utter_computer_science_co_curricular_activities
+
+- story: computer_science_teachers_analysis
+  steps:
+  - intent: computer_science_teachers_analysis
+  - action: utter_computer_science_teachers_analysis
+
+- story: computer_science_calendar_events
+  steps:
+  - intent: computer_science_calendar_events
+  - action: utter_computer_science_calendar_events
+
+- story: computer_science_counseling_module
+  steps:
+  - intent: computer_science_counseling_module
+  - action: utter_computer_science_counseling_module
+
+- story: computer_science_e_newsletter
+  steps:
+  - intent: computer_science_e_newsletter
+  - action: utter_computer_science_e_newsletter
+
+- story: dr_puttegowda_d_staff_cs_department
+  steps:
+  - intent: dr_puttegowda_d_staff_cs_department
+  - action: utter_dr_puttegowda_d_staff_cs_department
+
+- story: dr_j_v_gorabal_staff_cs_department
+  steps:
+  - intent: dr_j_v_gorabal_staff_cs_department
+  - action: utter_dr_j_v_gorabal_staff_cs_department
+
+- story: dr_nasreen_fathima_staff_cs_department
+  steps:
+  - intent: dr_nasreen_fathima_staff_cs_department
+  - action: utter_dr_nasreen_fathima_staff_cs_department
+
+- story: dr_m_s_sunitha_patel_staff_cs_department
+  steps:
+  - intent: dr_m_s_sunitha_patel_staff_cs_department
+  - action: utter_dr_m_s_sunitha_patel_staff_cs_department
+
+- story: dr_shilpa_b_l_staff_cs_department
+  steps:
+  - intent: dr_shilpa_b_l_staff_cs_department
+  - action: utter_dr_shilpa_b_l_staff_cs_department
+
+- story: sushma_v_staff_cs_department
+  steps:
+  - intent: sushma_v_staff_cs_department
+  - action: utter_sushma_v_staff_cs_department
+
+- story: keerthana_m_m_staff_cs_department
+  steps:
+  - intent: keerthana_m_m_staff_cs_department
+  - action: utter_keerthana_m_m_staff_cs_department
+
+- story: raghuram_a_s_staff_cs_department
+  steps:
+  - intent: raghuram_a_s_staff_cs_department
+  - action: utter_raghuram_a_s_staff_cs_department
+
+- story: kavyashree_e_d_staff_cs_department
+  steps:
+  - intent: kavyashree_e_d_staff_cs_department
+  - action: utter_kavyashree_e_d_staff_cs_department
+
+- story: kalathma_m_k_staff_cs_department
+  steps:
+  - intent: kalathma_m_k_staff_cs_department
+  - action: utter_kalathma_m_k_staff_cs_department
+
+- story: roopa_b_staff_cs_department
+  steps:
+  - intent: roopa_b_staff_cs_department
+  - action: utter_roopa_b_staff_cs_department
+
+- story: hamsa_a_s_staff_cs_department
+  steps:
+  - intent: hamsa_a_s_staff_cs_department
+  - action: utter_hamsa_a_s_staff_cs_department
+
+- story: sandesh_r_staff_cs_department
+  steps:
+  - intent: sandesh_r_staff_cs_department
+  - action: utter_sandesh_r_staff_cs_department
+
+- story: shrilakshmi_prasad_staff_cs_department
+  steps:
+  - intent: shrilakshmi_prasad_staff_cs_department
+  - action: utter_shrilakshmi_prasad_staff_cs_department
+
+- story: mrs_ashwini_p_staff_cs_department
+  steps:
+  - intent: mrs_ashwini_p_staff_cs_department
+  - action: utter_mrs_ashwini_p_staff_cs_department
+
+- story: ms_amitha_s_staff_cs_department
+  steps:
+  - intent: ms_amitha_s_staff_cs_department
+  - action: utter_ms_amitha_s_staff_cs_department
 
 - story: thank_you
   steps:
