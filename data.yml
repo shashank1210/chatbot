@@ -1,0 +1,172 @@
+- intent: computer_science_engineering_department
+  examples: |
+    - Tell me about the Department of Computer Science Engineering
+    - What is the Computer Science Engineering department like?
+    - Information about the Computer Science Engineering department
+    - Computer Science Engineering department details
+    - Overview of the Computer Science Engineering department
+    - computer science department details
+    - computer science engineering
+    - cse
+    - cse dept
+    - about the Department of Computer Science
+
+
+- intent: computer_science_engineering_hod
+  examples: |
+    - Who is the HOD of Computer Science Engineering department
+    - computer science department HOD
+    - computer science HOD
+    - putte gowda
+    - DR Putte Gowda D
+    - who is the HOD of cse
+
+
+
+- intent: computer_science_engineering_vision
+  examples: |
+    - What is the vision of the Computer Science Engineering department?
+    - Computer Science Engineering department vision statement
+    - Department of Computer Science Engineering vision
+    - vision of cse department
+    - vision of computer science department
+
+- intent: computer_science_engineering_mission
+  examples: |
+    - What is the mission of the Computer Science Engineering department?
+    - Computer Science Engineering department mission statement
+    - Department of Computer Science Engineering mission
+    - mission of cse department
+    - mission of computer science department
+
+- intent: computer_science_engineering_peos
+  examples: |
+    - What are the PEOs of Computer Science Engineering?
+    - Program Educational Objectives of Computer Science Engineering
+    - Program Educational Objectives of Cse
+    - Computer Science Engineering PEOs
+
+- intent: computer_science_engineering_psos
+  examples: |
+    - What are the PSOs of Computer Science Engineering?
+    - Program Specific Outcomes of Computer Science Engineering
+    - Program Specific Outcomes of Cse
+    - Computer Science Engineering PSOs
+
+- intent: computer_science_engineering_short_term_goals
+  examples: |
+    - What are the short-term goals of the Computer Science Engineering department?
+    - Computer Science Engineering department short-term goals
+    - Short-term goals for Computer Science Engineering
+    - Short-term goals for Cse
+
+- intent: computer_science_engineering_long_term_goals
+  examples: |
+    - What are the long-term goals of the Computer Science Engineering department?
+    - Computer Science Engineering department long-term goals
+    - Long-term goals for Computer Science Engineering
+    - Long-term goals for Cse
+
+
+
+- intent: computer_science_infrastructure_facilities
+  examples: |
+    - What are the infrastructure and facilities available in the Computer Science Engineering department?
+    - Tell me about the facilities in the Computer Science Engineering department.
+    - Does the Computer Science Engineering department have multimedia projectors?
+    - Describe the infrastructure of the Computer Science Engineering department.
+
+- intent: computer_science_department_library
+  examples: |
+    - What resources are available in the Computer Science Engineering department library?
+    - Tell me about the department library for Computer Science Engineering.
+    - What books and materials are in the Computer Science Engineering department library?
+    - Describe the library in the Computer Science Engineering department.
+
+- intent: Computer Science_teaching_staff_details
+  examples: |
+    - Who are the teaching staff in the Computer Science Engineering department?
+    - Tell me about the faculty in the Computer Science Engineering department.
+    - List the professors in the Computer Science Engineering department.
+    - Who teaches in the Computer Science Engineering department?
+
+- intent: computer_science_technical_supporting_staff_details
+  examples: |
+    - Who are the technical staff in the Computer Science Engineering department?
+    - Tell me about the supporting staff in the Computer Science Engineering department.
+    - List the technical staff in the Computer Science Engineering department.
+    - Who are the assistants in the Computer Science Engineering department?
+
+- intent: computer_science_supporting_staff_details
+  examples: |
+    - Who are the supporting staff in the Computer Science Engineering department?
+    - Tell me about the supporting staff in the Computer Science Engineering department.
+    - List the supporting staff in the Computer Science Engineering department.
+    - Who are the attenders in the Computer Science Engineering department?
+
+- intent: computer_science_all_staff_details
+  examples: |
+    - Who are the staff members in the Computer Science Engineering department?
+    - Tell me about the staff in the Computer Science Engineering department.
+    - List all staff members in the Computer Science Engineering department.
+    - Who are the faculty and supporting staff in the Computer Science Engineering department?
+
+- intent: computer_science_student_learning_resources
+  examples: |
+    - Tell me about student learning resources
+    - What resources are available for student learning?
+    - Can you provide information on learning resources?
+
+- intent: computer_science_achievements
+  examples: |
+    - What achievements does the Computer Science Engineering department have?
+    - Can you share the department's achievements?
+    - Tell me about the accomplishments of the department.
+
+- intent: computer_science_research_initiatives
+  examples: |
+    - What research initiatives are being undertaken?
+    - Can you tell me about the research projects?
+    - What are the current research initiatives in the department?
+
+- intent: computer_science_industry_interface
+  examples: |
+    - How does the department interface with industry?
+    - Can you explain the industry collaborations?
+    - What industry connections does the department have?
+
+- intent: computer_science_placement
+  examples: |
+    - What are the placement opportunities for Computer Science engineering students?
+    - Can you provide details about placements?
+    - How successful are graduates in finding placements?
+
+- intent: computer_science_co_curricular_activities
+  examples: |
+    - What co-curricular and extra-curricular activities are available?
+    - Can you list the activities for students?
+    - What opportunities are there for involvement outside of class?
+
+- intent: computer_science_teachers_analysis
+  examples: |
+    - Can you provide analysis on teachers' teaching effectiveness?
+    - What is the teaching analysis for faculty?
+    - How are the teachers evaluated?
+
+- intent: computer_science_calendar_events
+  examples: |
+    - What events are scheduled for this semester?
+    - Can you share the calendar of events?
+    - What upcoming events should I know about?
+
+- intent: computer_science_counseling_module
+  examples: |
+    - Is there a counseling module for students?
+    - What counseling services are available?
+    - Can you tell me about the student counseling module?
+
+- intent: computer_science_e_newsletter
+  examples: |
+    - How can I access the e-newsletter?
+    - Can you tell me about the e-newsletter?
+    - What updates are included in the e-newsletter?
