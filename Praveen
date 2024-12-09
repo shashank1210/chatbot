@@ -1,0 +1,505 @@
+utter_computer_science_engineering_department:
+    - text: "About the Department:
+The department of Computer Science & Engineering was established in the year 2010 with intake of 60 students and was enhanced to 120 students in 2013. The department is a pioneering academic centre for higher education, research, and innovations in key areas of Computer Science. It has been imparting quality education to meet the technological advancements and industrial requirements. This has been made possible due to highly qualified and experienced faculties with excellent academic track record. There is a proportionate mix of academic and industrial experience amongst the faculty which is influential in imparting the right blend of theoretical and practical knowledge to the students.  The department has state of the art laboratories and excellent infrastructural facilities that provide the students with quality education that matches global standards. The first initiative taken by the department was to start the student branch of ‘Computer Society of India’ – CSI, a professional body at National level, in the year 2012, all the students in the department were enrolled as student members. The College also obtained CSI Institutional Membership and most of the staff members are Life Members of CSI. Department Library has been set up with more than 1110 Volumes on shelves. \n For more details, visit: [***CSE Department***](https://atme.edu.in/computer-science-and-engineering/about-the-department/)."
+      image: "https://atme.edu.in/wp-content/uploads/2024/11/rsz_rh9_0701.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_hod:
+    - text: "HOD’s Message
+Department of Computer Science & Engineering commits to work towards developing dedicated professionals with a rich blend of competent, technical, managerial and social skills to contribute nation building. The Department with highly qualified and experienced team of faculty with industry and research background dedicates to strengthen effective teaching learning process in the ambiance of conducive environment with well supported and stuffed curricular and co-curricular activities. The Department of Computer Science & Engineering has a state of the art facility that provides the students with quality education that matches global standards and truly an academic ambiance of excellence. The Department is wide open to innovative ideas, methodologies to establish itself as the most sought excellent learning center.
+
+– Dr Puttegowda D, HOD. \n For more details, visit: [***HOD’s Message***] https://atme.edu.in/computer-science-and-engineering/about-the-department/"
+      image: "https://atme.edu.in/wp-content/uploads/CSE-21.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_vision:
+    - text: "Vision of the Department
+To develop highly talented individuals in Computer Science and Engineering to deal with real world challenges in industry, education, research and society. \n For more details, visit: [***CSE Department***](https://atme.edu.in/computer-science-and-engineering/about-the-department/)"
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_mission:
+    - text: "Mission of the Department
+To inculcate professional behavior, strong ethical values, innovative research capabilities and leadership abilities in the young minds & to provide a teaching environment that emphasizes depth, originality and critical thinking.
+Motivate students to put their thoughts and ideas adoptable by industry or to pursue higher studies leading to research. \n For more details, visit: [***CSE Department***](https://atme.edu.in/computer-science-and-engineering/about-the-department/)."
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_peos:
+    - text: "Program Educational Objectives (PEOs)
+After successful completion of program:
+
+PEO1: Empower students with a strong basis in the mathematical, scientific and engineering fundamentals to solve computational problems and to prepare them for employment, higher learning and R&D
+PEO2: Gain technical knowledge, skills and awareness of current technologies of computer science engineering and to develop an ability to design and provide novel engineering solutions for software/hardware problems through entrepreneurial skills.
+PEO3: Exposure to emerging technologies and work in teams on interdisciplinary projects with effective communication skills and leadership qualities.
+PEO4: Ability to function ethically and responsibly in a rapidly changing environment by applying innovative ideas in the latest technology, to become effective professionals in Computer Science to bear a life-long career in related areas. \n For more details, visit: [***CSE Department***](https://atme.edu.in/computer-science-and-engineering/about-the-department/)."
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_psos:
+    - text: "Program Outcomes
+Engineering Graduates will be able to:
+
+PO1. Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.
+PO2. Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+PO3. Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.
+PO4. Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+PO5. Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations.
+PO6. The engineer and society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.
+PO7. Environment and sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
+PO8. Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.
+PO9. Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+PO10. Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+PO11. Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+PO12. Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change. \n For more details, visit: [***CSE Department***](https://atme.edu.in/computer-science-and-engineering/about-the-department/)."
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_short_term_goals:
+    - text: "Short Term Goals
+To conduct programs for students to acquire technical skills, soft skills and leadership qualities.
+To conduct student technical paper contest at national level in association with professional bodies.
+To conduct certification courses in collaboration with software giants like Microsoft, Phillips, IBM, CISCO, Infosys, HP etc.,
+Establish research laboratories under industry- institution collaboration.
+Organize national / international / seminar / conference / workshop in the latest technologies.
+To conduct faculty development programs regularly for skills upgardation. \n For more details, visit: [***CSE Department***](https://atme.edu.in/computer-science-and-engineering/about-the-department/)."
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_engineering_long_term_goals:
+    - text: "Long Term Goals
+To promote research and consultancy activities.
+To strengthen the industry- institute interaction.
+To have more number of publications and patents in the emerging areas of information technology.
+To be among the top ten leading institute in India and be recognized as the best department in terms of research and innovation.
+To take up research projects from government / AICTE / VTU and other funding organizations. \n For more details, visit: [***CSE Department***](https://atme.edu.in/computer-science-and-engineering/about-the-department/)."
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_infrastructure_facilities:
+    - text: "Infrastructure
+Infrastructure/Facilities
+
+Department of computer science and engineering has seven state of art laboratories. All labs are highly equipped with sufficient systems with   all the necessary software and hardware tools required for conducting the experiments. Department of Computer Science and Engineering has qualified and experienced staff members to provide high quality education and attention to individual student is given. \n For more details, visit: [***CSE Infrastucture***](https://atme.edu.in/computer-science-and-engineering/cs-infrastructure/). "
+      image: "https://atme.edu.in/wp-content/uploads/2022/12/CS-01-1200x600.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_department_library:
+    - text: "Department Library
+
+The library of CSE department is having 1110 books and information resources. The department is catering to aspirants quench for knowledge by adding good number of books to its department Library racks
+
+The library serves as a central organ of academic activity in the Department. The Department has a rich & vast collection of more than 661 books, periodicals and reports. It also has one copy each of all B.E. projects reports carried out in the department in recent years. All these cater to the needs of students and faculty. Most of the books are of recent edition with the facility of issuing these for a specified time period. Department library also provide the services of librarians who are experts at finding and organizing information and at interpreting information needs.\n For more details, visit: [***CSE Infrastucture***](https://atme.edu.in/computer-science-and-engineering/cs-infrastructure/)."
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_Computer_Science_teaching_staff_details:
+    - text: "Faculty List for Academic Year 2023-24\n
+1	Dr. Puttegowda D	BE, M.Tech, Ph.D	Professor and HOD	1/2/2012	Regular\n
+2	Dr. J V Gorabal	BE, M.Tech, Ph.D	Professor	20-08-2020	Regular\n
+3	Dr. NasreenFathima	BE, M.Tech, Ph.D	Associate Professor	23-07-2014	Regular\n
+4	Dr. M S Sunitha Patel	BE, M.Tech, Ph.D	Associate Professor	15-07-2013	Regular\n
+6	Dr. Shilpa B L	BE, M.Tech, PhD	Associate Professor	08/07/2024	Regular\n
+7	Sushma V	BE, M.Tech	Assistant Professor	27-07-2015	Regular\n
+8	Keerthana M M	BE, M.Tech	Assistant Professor	15-07-2015	Regular\n
+9	Raghuram A S	BE, M.Tech	Assistant Professor	7/8/2017	Regular\n
+10	Kavyashree E D	BE, M.Tech	Assistant Professor	21-08-2017	Regular\n
+11	Kalathma M K	BE, M.Tech	Assistant Professor	25-08-2021	Regular\n
+12	Roopa B	BE, M.Tech	Assistant Professor	27-08-2021	Regular\n
+13	Hamsa A S	BE, M.Tech	Assistant Professor	26-08-2021	Regular\n
+14	Sushma V	BE, M.Tech	Assistant Professor	27-08-2021	Regular\n
+15	Sandesh R	BE, M.Tech	Assistant Professor	8/8/2022	Regular\n
+16	Shrilakshmi Prasad	BE, M.Tech	Assistant Professor	5/6/2023	Regular\n
+17	Mrs. Ashwini P	BE, M.Tech	Assistant Professor	19/6/2024	Regular\n
+18	Ms. Amitha S	BE, M.Tech	Assistant Professor	19/6/2023	Regular"\n
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_technical_supporting_staff_details:
+    - text: "Technical Staff Details
+
+1.Mr.KS YOGESH System Analyst\n
+2.Mr. RAJIV. P Foreman\n
+3.Mr. Vinay Kumar M N Programmer\n
+4.Mr. Nagappa TN Programmer\n
+5.Miss. PRAGATHI B Programmer\n
+6.Mr. NAGESHJ Programmer\n
+7.Mr. K BABU KAMRATH Programmer. \n For more details, visit: [***CSE Technical Staff***](https://atme.edu.in/computer-science-and-engineering/cse-faculty-profile/#1671524976938-00bcd823-3e25)."
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_supporting_staff_details:
+    - text: "Supporting Staff Details
+
+1.Mr. Yogesha Kкс Attender\n
+2.Mr. RAVIAR Attender\n
+3.Mr. Dhananjaya K S Attender\n
+4.Mrs. Kavitha a Attender \n For more details, visit: [***CSE Technical Staff***](https://atme.edu.in/computer-science-and-engineering/cse-faculty-profile/#1671524976938-00bcd823-3e25)."
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_all_staff_details:
+    - text: "
+     **Teaching Faculty List** \n
+1. [**Dr. Puttegowda D**]() – Professor and HOD\n  
+2. [**Dr. J V Gorabal**]() – Professor\n  
+3. [**Dr. Nasreen Fathima**]() – Associate Professor\n  
+4. [**Dr. M S Sunitha Patel**]() – Associate Professor\n  
+5. [**Dr. Shilpa B L**]() – Associate Professor\n  
+6. [**Sushma Varadaraj**]() – Assistant Professor\n  
+7. [**Keerthana M M**]() – Assistant Professor\n  
+8. [**Raghuram A S**]() – Assistant Professor\n  
+9. [**Kavyashree E D**]() – Assistant Professor\n  
+10. [**Kalathma M K**]() – Assistant Professor\n  
+11. [**Roopa B**]() – Assistant Professor\n  
+12. [**Hamsa A S**]() – Assistant Professor\n  
+13. [**Sushma V**]() – Assistant Professor\n  
+14. [**Sandesh R**]() – Assistant Professor\n  
+15. [**Shrilakshmi Prasad**]() – Assistant Professor\n  
+16. [**Mrs. Ashwini P**]() – Assistant Professor\n  
+17. [**Ms. Amitha S**]() – Assistant Professor\n  
+
+    **Technical Staff List**\n
+1. [**Mr. Yogesha K**]() – Attender\n  
+2. [**Mr. RAVIAR**]() – Attender\n  
+3. [**Mr. Dhananjaya K S**]() – Attender\n  
+4. [**Mrs. Kavitha A**]() – Attender\n  
+
+  **Supporting Staff List**\n
+  1. [**Mr. KS Yogesh**]() – System Analyst\n  
+2. [**Mr. Rajiv P**]() – Foreman\n  
+3. [**Mr. Vinay Kumar M N**]() – Programmer\n  
+4. [**Mr. Nagappa T N**]() – Programmer\n  
+5. [**Miss Pragathi B**]() – Programmer\n  
+6. [**Mr. Nagesh J**]() – Programmer\n  
+7. [**Mr. K Babu Kamrath**]() – Programmer\n For more details visit.[***CSE Staff Details***](https://atme.edu.in/computer-science-and-engineering/cse-faculty-profile/#).
+"
+
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_student_learning_resources:
+    - text: ""
+      image: "https://atme.edu.in/wp-content/uploads/2023/08/SLC-1-02.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_achievements:
+    - text: "Faculty Achievements
+**FACULTY ACHIEVEMENTS**
+SPONSORED PROJECT\n
+Project Title: Research Avenues in Artificial Intelligence
+and Allied Areas\n
+Principal Investigtor:Dr. Naveen N M Dr. Puttegowda D\n
+Name of the Funding Agency:SERB\n
+Total amount Sanctioned in `:80000.00\n
+**AWARDS**
+Raghuram A S, Asst Professor, Dept of CSE, has received Best Teacher Award for the AY 2020 – 21 from ATME College of Engineering, Mysuru.
+Rajiv S, Programmer, Dept of CSE, has received Best Technical Staff Award for the AY 2020 – 21 from ATME College of Engineering, Mysuru.
+Kiran B, Asst Professor, Dept of CSE, has received Best Teacher Award for the AY 2018 – 19 and 2016-17 from ATME College of Engineering, Mysuru.
+Anil Kumar B H, Asst Professor, Dept of CSE, has received Best Teacher Award for the AY 2018 – 19 from ATME College of Engineering, Mysuru.
+Nagappa T N, Programmer, Dept of CSE, has received Best Technical Staff Award for the AY 2018 – 19 from ATME College of Engineering, Mysuru.\n
+For more details Visit[**achievements**](https://atme.edu.in/computer-science-and-engineering/achievements-2/)"
+      image: "https://atme.edu.in/wp-content/uploads/2023/08/rsz_achievements.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_research_initiatives:
+    - text: "The Computer Science and Engineering department promotes active involvement of faculty and students in technical collaborative programs at national and international level. These programs aim at exchange of knowledge among students and faculty in terms of research or project work, and academic programs. The centre also offers short/ long term training to students on latest technologies and development tools and encourages publication of technical articles and provides teaching materials for E-Learning. The centre works to provide solution for various problems in the field of Medical Science, Information Security, image classification, Big data etc.\n
+    Here’s how you can present this data as a chatbot response, with proper formatting for conversational clarity:
+
+
+### **Research Centre Details**
+
+#### **List of Available Research Supervisors**  
+1. **Department**: CSE  
+   **Supervisor**: Dr. Puttegowda D  
+   **Designation**: Professor & Head  
+   **Specialization**: Image Processing  
+
+2. **Department**: CSE  
+   **Supervisor**: Dr. J V Gorabal  
+   **Designation**: Professor  
+   **Specialization**: Image Processing  
+
+3. **Department**: CSE  
+   **Supervisor**: Dr. Deepu R  
+   **Designation**: Professor  
+   **Specialization**: Image Processing  
+
+4. **Department**: CSE  
+   **Supervisor**: Dr. Nasreen Fathima  
+   **Designation**: Associate Professor  
+   **Specialization**: IoT & Network Security  
+
+---
+
+#### **Research Scholars at ATMECE Research Centre**  
+
+- **Guide**: Dr. Puttegowda D  
+  - Mrs. Syeda Umera Almas (Awarded in 2022)  
+  - Mrs. Rajeshwari D (Awarded in 2022)  
+  - Anil Kumar B H (Registered)  
+  - Dayananda K J (Registered)  
+  - Ajay Kumar B R (Registered)  
+  - Mrs. Poojitha G S (Registered)  
+
+- **Guide**: Dr. J V Gorabal  
+  - Rajeshwari Banni (Comprehensive Viva Completed)  
+  - Shanta H Biradar (Comprehensive Viva Completed)  
+  - Sneha NP (Registered)  
+  - Shruthishree M K (Registered)  
+  - Usha G R (Awarded in 2023)  
+  - Raghuram A S (Registered)  
+  - Naithik Kumar S T (Comprehensive Viva Completed)  
+
+- **Guide**: Dr. Deepu R  
+  - Sindhu A S (Registered)  
+  - Divya H N (Registered)  
+  - Lakshmi Durga (Thesis Submitted)  
+  - Shobha B S (Thesis Submitted)  
+  - Shruthiba A (Open Seminar-1 Completed)  
+  - Sushma Koushik N (Course Work in Progress)  
+  - Chethana C (Course Work Completed)  
+
+---
+
+#### **Faculty Pursuing PhD**  
+
+1. **Faculty**: Mr. Anil Kumar C J  
+   **Registration Year**: 2015  
+   **Status**: Thesis Submitted  
+
+2. **Faculty**: Mr. Sandesh R  
+   **Registration Year**: 2021  
+   **Status**: Registered  
+
+3. **Faculty**: Mahima M Gowda  
+   **Registration Year**: 2021  
+   **Status**: Registered  
+
+4. **Faculty**: Raghuram A S  
+   **Registration Year**: 2021  
+   **Status**: Registered  
+
+5. **Faculty**: Mrs. Lakshmi Durga  
+   **Registration Year**: 2017  
+   **Status**: Thesis Submitted  
+
+---
+
+#### **Patent Publication Details (2021-2022)**  
+
+1. **Title**: System And Method For Paddy Detection And Cure Recommendation  
+   **Inventors**: Dr. Deepu R, Bibi Javeriya, Anushka D K, Kishore P  
+   **Application No.**: 202241061528  
+   **Date of Filing**: 04/11/2022  
+   **Date of Publication**: 18/11/2022  
+
+2. **Title**: System And Method For Graphology-based Assessment of Personality Traits  
+   **Inventors**: Dr. Deepu R, Nisarga P, Nischal S, S S Surabhi, Suman K M  
+   **Application No.**: 202241063039  
+   **Date of Filing**: 04/11/2022  
+   **Date of Publication**: 18/11/2022  
+
+3. **Title**: System And Method For Traffic Clearance In Emergency  
+   **Inventors**: Dr. Nasreen Fathima, Aishwarya C, Pranjali, Taanya K M, Yashwanth V E  
+   **Application No.**: 202241063006  
+   **Date of Filing**: 04/11/2022  
+   **Date of Publication**: 18/11/2022  "
+      image: "https://atme.edu.in/wp-content/uploads/2023/08/rsz_1rc.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_industry_interface:
+    - text: "
+### **List of Memorandums of Understanding (MoUs)**  
+
+#### **1. AUDAZ Ventures Pvt. Ltd., Bangalore**  
+- **Duration**: 4 Years  
+- **Date of Signing**: 24-Aug-2022  
+- **Objectives**:  
+  - Empower students with strong fundamental domain-specific knowledge.  
+  - Formulate new ideas for problem-solving.  
+- **Outcomes**:  
+  - Students acquire necessary skills at various levels from the circle of transformation aimed at transforming personalities.  
+  - Domain-specific training based on student interests and requirements.  
+
+---
+
+#### **2. ATEU Softwares, Mysore**  
+- **Duration**: 3 Years  
+- **Date of Signing**: 07-Sep-2021  
+- **Objectives**:  
+  - Enhance software development and application development skills of students to best match needs and requirements.  
+  - Create interactive applications with a combination of quality and affordability.  
+- **Outcomes**:  
+  - Students can develop software, bringing ideas to reality with creativity, technology, and perfection.  
+  - Capability to create interactive applications.  
+
+---
+
+#### **3. CLASSMAIN Software, Mysore**  
+- **Duration**: 3 Years  
+- **Date of Signing**: 07-Sep-2021  
+- **Objectives**:  
+  - Provide verifiable certificate courses to students.  
+  - Bridge the gap between college education and ever-changing industry requirements.  
+- **Outcomes**:  
+  - Students receive verifiable certificates issued by recognized industries.  
+  - Online assessments conducted within the college campus.  
+
+---
+
+#### **4. GeeksLab Technologies, New Delhi**  
+- **Duration**: 3 Years  
+- **Date of Signing**: 18-Mar-2019  
+- **Objectives**:  
+  - Enrich technical education in new subject areas, enhance the learning-teaching process, and jointly work to improve education quality.  
+  - Provide industrial exposure and trending technologies for students to meet industry needs and gain global recognition.  
+- **Outcomes**:  
+  - Students gain knowledge about industry needs and expectations.  
+
+---
+
+#### **5. NICT Computer Education Pvt. Ltd., Bangalore**  
+- **Duration**: 4 Years  
+- **Date of Signing**: 23-Nov-2017  
+- **Objectives**:  
+  - Offer verifiable certificate courses to students.  
+  - Bridge the gap between college education and industry requirements.  
+- **Outcomes**:  
+  - Students receive certificates issued by NICT upon successful course completion and passing online assessments conducted on campus.  
+
+---
+
+#### **6. CISCO Centre of Excellence for Advanced Networking**  
+- **Date of Signing**: 21-Jan-2018  
+- **Description**:  
+  - The department offers the CCNA (Cisco Certified Network Associate) certification course since 2018, providing hands-on experience in networking concepts during a 110-hour course.  
+  - Sophisticated networking infrastructure includes routers, switches, wireless adapters, and simulation software (Packet Tracer) for better understanding.  
+
+- **Course Modules**:  
+  1. Networking fundamentals  
+  2. Routing protocols and concepts  
+  3. LAN switching and wireless  
+  4. Accessing the WAN  
+
+- **Outcomes**:  
+  - Students gain practical skills and compete in national-level competitions like CISCO Net Riders.  
+  - Rural school students are motivated through demonstrations.  
+
+---
+
+#### **Industry Visits Conducted**:  
+- Bharat Earth Movers Limited (BEML), Mysore  
+- Myra School of Business, Mysore (organized by Cyberverse Foundation)  
+- Central Food Technological Research Institute, Mysore  
+- Infosys Limited, Mysore  
+- ISRO Satellite Centre, Bangalore  
+
+---
+
+Let me know if there’s anything else you need! 😊"
+      image: "https://atme.edu.in/wp-content/uploads/2023/08/rsz_industry_interface.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_placement:
+    - text: "Placement & Higher Studies
+Department of Computer science and Engineering aims at providing the required technical training needed to output industry ready students. We assure maximum placement from top IT Companies. Department provides and arranges programs on career guidance, aptitude tests, mock interviews and group discussions to assist students chalk out a career path. CSE graduates are recruited by some of the world’s leading corporates like COGNIZANT, INFOSYS, TECHGINI, IBM, UNILOG, EXCELSOFT, SYNTEL, THEOREM etc. The number of companies visiting every year has been steadily increasing and the recruiters are satisfied with the large talented pool of candidates that they get to select from.\n
+| **Academic Year (AY)** | **2019-2020** | **2020-2021** | **2021-2022** | **2022-2023** |
+|------------------------|---------------|---------------|---------------|---------------|
+| **Total No. of Students** | 103           | 89            | 109           | 121           |
+| **Total No. of Students Placed** | 62            | 80            | 79            | 44            |
+| **Higher Education**     | 3             | 2             | 4             | -             |
+| **Highest Salary (in LPA)** | 9.6           | 7.5           | 11.14         | 7.15          |
+| **Average Salary (in LPA)** | 3.68          | 3.72          | 3.70          | 4.3           |
+| **Placement Percentage** | 63.10%        | 92.13%        | 76.14%        | 36.36%        |
+"
+      image: "https://atme.edu.in/wp-content/uploads/2023/08/Placements-1-01.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_co_curricular_activities:
+    - text: "Co-curricular & Extracurricular Activities
+The Department of Computer Science & engineering has actively involved in professional bodies like CSI-SB , ISTE,COSMICS ,IEI and IEEE-SB. Department organizes workshops, technical talks, seminars, and many more activities under CSI banner. CSI-SB of ATME CE conducts free computer awareness program every year for 10th Standard students of Harohalli Govt. High School, Mellahalli, Mysore.\n
+
+| **Name of the Body**      | **Institutional/Department Level** | **Year of Establishment** | **Faculty Coordinators**     |
+|---------------------------|-----------------------------------|---------------------------|-----------------------------|
+| **CSI-SB**                | Department                        | 2012                      | Anil Kumar C J              |
+| **ISTE**                  | Institution                       | 2012                      | Sunitha Patel               |
+| **COSMICS**               | Department                        | 2012                      | Sushma V                    |
+| **IEI**                   | Institution                       | 2021                      | Dr. Puttegowda D           |
+| **IEEE-SB**               | Institution                       | 2021                      | Dr. J V Gorabal             |
+
+"
+      image: "https://atme.edu.in/wp-content/uploads/2023/08/rsz_1co-curriculum_1.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_teachers_analysis:
+    - text: "Teachers Teaching Analysis"
+      image: "https://atme.edu.in/wp-content/uploads/2023/08/cs-teching1.png"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_calendar_events:
+    - text: "[***CLick here for Calendar of events***](https://atme.edu.in/coe-cs/#1727074617780-fffd75d4-2eeb)"
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_counseling_module:
+    - text: "[***CLick here for Counseling module***](https://atme.edu.in/computer-science-and-engineering/cse-news-letter/)"
+      image: "https://atme.edu.in/wp-content/uploads/2022/12/CS-02-1200x600.jpg"
+      buttons:
+        - title: ""
+          payload: ""
+
+  utter_computer_science_e_newsletter:
+    - text: "[***CLick here for Department Newsletter***](https://atme.edu.in/computer-science-and-engineering/cse-news-letter-2/)"
+      image: ""
+      buttons:
+        - title: ""
+          payload: ""
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
