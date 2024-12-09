@@ -237,6 +237,9 @@ nlu:
     - How many experienced faculties does ATME have?
     - Tell me about the faculty at ATME.
     - What is the number of experienced teachers at ATME?
+    - total faculties in ATME
+    - total number of faculty in ATME
+
 
 - intent: college_statistics_companies
   examples: |
@@ -400,6 +403,9 @@ nlu:
     - Tell me about the Principal of ATME.
     - Principal's message at ATME.
     - Information on the Principal of ATME College.
+    - Dr. L. Basavaraj
+    - Dr.L.Basavaraj
+    - Dr L Basavaraj
 
 - intent: academic_council_overview
   examples: |
@@ -425,14 +431,14 @@ nlu:
     - Describe the functions of the Academic Council at ATME.
     - Academic Council's duties at ATME.
 
-- intent: all_departments
+- intent: all_programs
   examples: |
-    - What are the departments available?
-    - List all the departments in your college.
-    - Tell me about all the departments.
-    - Departments in the institution
+    - What are the programs available?
+    - List all the programs in your college.
+    - Tell me about all the programs.
+    - programs in the institution
     - What courses are available at your college?
-    - List all departments available in ATME
+    - List all programs available in ATME
 
 - intent: ug_programs
   examples: |
@@ -545,14 +551,9 @@ nlu:
     - Civil Engineering department faculty contact details
     - Faculty in charge of Civil Engineering department
 
-- intent: infrastructure_facilities
-  examples: |
-    - What are the infrastructure and facilities available in the Civil Engineering department?
-    - Tell me about the facilities in the Civil Engineering department.
-    - Does the Civil Engineering department have multimedia projectors?
-    - Describe the infrastructure of the Civil Engineering department.
 
-- intent: department_library
+
+- intent: civil_department_library
   examples: |
     - What resources are available in the Civil Engineering department library?
     - Tell me about the department library for Civil Engineering.
@@ -615,28 +616,28 @@ nlu:
     - Describe the Concrete & Highway Material Testing lab.
     - What facilities are available in the Concrete lab?
 
-- intent: teaching_staff_details
+- intent: civil_teaching_staff_details
   examples: |
     - Who are the teaching staff in the Civil Engineering department?
     - Tell me about the faculty in the Civil Engineering department.
     - List the professors in the Civil Engineering department.
     - Who teaches in the Civil Engineering department?
 
-- intent: technical_supporting_staff_details
+- intent: civil_technical_supporting_staff_details
   examples: |
     - Who are the technical staff in the Civil Engineering department?
     - Tell me about the supporting staff in the Civil Engineering department.
     - List the technical staff in the Civil Engineering department.
     - Who are the assistants in the Civil Engineering department?
 
-- intent: supporting_staff_details
+- intent: civil_supporting_staff_details
   examples: |
     - Who are the supporting staff in the Civil Engineering department?
     - Tell me about the supporting staff in the Civil Engineering department.
     - List the supporting staff in the Civil Engineering department.
     - Who are the attenders in the Civil Engineering department?
 
-- intent: all_staff_details
+- intent: civil_all_staff_details
   examples: |
     - Who are the staff members in the Civil Engineering department?
     - Tell me about the staff in the Civil Engineering department.
@@ -698,6 +699,290 @@ nlu:
     - Can you tell me about the student counseling module?
 
 - intent: civil_e_newsletter
+  examples: |
+    - How can I access the e-newsletter?
+    - Can you tell me about the e-newsletter?
+    - What updates are included in the e-newsletter?
+
+- intent: all_Departments
+  examples: |
+    - What are the departments available?
+    - List all the departments in your college.
+    - Tell me about all the departments.
+    - Departments in the institution
+    - What courses are available at your college?
+    - List all departments available in ATME
+
+
+- intent: dr_puttegowda_d_staff_cs_department
+  examples: |
+    - who is Dr. Puttegowda D?
+    - Dr. Puttegowda D
+    - tell me about Dr. Puttegowda D
+
+- intent: dr_j_v_gorabal_staff_cs_department
+  examples: |
+    - who is Dr. J V Gorabal?
+    - Dr. J V Gorabal
+    - tell me about Dr. J V Gorabal
+
+- intent: dr_nasreen_fathima_staff_cs_department
+  examples: |
+    - who is Dr. Nasreen Fathima?
+    - Dr. Nasreen Fathima
+    - tell me about Dr. Nasreen Fathima
+
+- intent: dr_m_s_sunitha_patel_staff_cs_department
+  examples: |
+    - who is Dr. M S Sunitha Patel?
+    - Dr. M S Sunitha Patel
+    - tell me about Dr. M S Sunitha Patel
+
+- intent: dr_shilpa_b_l_staff_cs_department
+  examples: |
+    - who is Dr. Shilpa B L?
+    - Dr. Shilpa B L
+    - tell me about Dr. Shilpa B L
+
+- intent: sushma_v_staff_cs_department
+  examples: |
+    - who is Sushma V?
+    - Sushma V
+    - tell me about Sushma V
+
+- intent: keerthana_m_m_staff_cs_department
+  examples: |
+    - who is Keerthana M M?
+    - Keerthana M M
+    - tell me about Keerthana M M
+
+- intent: raghuram_a_s_staff_cs_department
+  examples: |
+    - who is Raghuram A S?
+    - Raghuram A S
+    - tell me about Raghuram A S
+
+- intent: kavyashree_e_d_staff_cs_department
+  examples: |
+    - who is Kavyashree E D?
+    - Kavyashree E D
+    - tell me about Kavyashree E D
+
+- intent: kalathma_m_k_staff_cs_department
+  examples: |
+    - who is Kalathma M K?
+    - Kalathma M K
+    - tell me about Kalathma M K
+
+- intent: roopa_b_staff_cs_department
+  examples: |
+    - who is Roopa B?
+    - Roopa B
+    - tell me about Roopa B
+
+- intent: hamsa_a_s_staff_cs_department
+  examples: |
+    - who is Hamsa A S?
+    - Hamsa A S
+    - tell me about Hamsa A S
+
+- intent: sushma_v_staff_cs_department
+  examples: |
+    - who is Sushma V?
+    - Sushma V
+    - tell me about Sushma V
+
+- intent: sandesh_r_staff_cs_department
+  examples: |
+    - who is Sandesh R?
+    - Sandesh R
+    - tell me about Sandesh R
+
+- intent: shrilakshmi_prasad_staff_cs_department
+  examples: |
+    - who is Shrilakshmi Prasad?
+    - Shrilakshmi Prasad
+    - tell me about Shrilakshmi Prasad
+
+- intent: mrs_ashwini_p_staff_cs_department
+  examples: |
+    - who is Mrs. Ashwini P?
+    - Mrs. Ashwini P
+    - tell me about Mrs. Ashwini P
+
+- intent: ms_amitha_s_staff_cs_department
+  examples: |
+    - who is Ms. Amitha S?
+    - Ms. Amitha S
+    - tell me about Ms. Amitha S
+- intent: computer_science_engineering_department
+  examples: |
+    - Tell me about the Department of Computer Science Engineering
+    - What is the Computer Science Engineering department like?
+    - Information about the Computer Science Engineering department
+    - Computer Science Engineering department details
+    - Overview of the Computer Science Engineering department
+    - computer science department details
+    - computer science engineering
+    - cse
+    - cse dept
+    - about the Department of Computer Science
+
+
+- intent: computer_science_engineering_hod
+  examples: |
+    - Who is the HOD of Computer Science Engineering department
+    - computer science department HOD
+    - computer science HOD
+    - putte gowda
+    - DR Putte Gowda D
+    - who is the HOD of cse
+
+
+
+- intent: computer_science_engineering_vision
+  examples: |
+    - What is the vision of the Computer Science Engineering department?
+    - Computer Science Engineering department vision statement
+    - Department of Computer Science Engineering vision
+    - vision of cse department
+    - vision of computer science department
+
+- intent: computer_science_engineering_mission
+  examples: |
+    - What is the mission of the Computer Science Engineering department?
+    - Computer Science Engineering department mission statement
+    - Department of Computer Science Engineering mission
+    - mission of cse department
+    - mission of computer science department
+
+- intent: computer_science_engineering_peos
+  examples: |
+    - What are the PEOs of Computer Science Engineering?
+    - Program Educational Objectives of Computer Science Engineering
+    - Program Educational Objectives of Cse
+    - Computer Science Engineering PEOs
+
+- intent: computer_science_engineering_psos
+  examples: |
+    - What are the PSOs of Computer Science Engineering?
+    - Program Specific Outcomes of Computer Science Engineering
+    - Program Specific Outcomes of Cse
+    - Computer Science Engineering PSOs
+
+- intent: computer_science_engineering_short_term_goals
+  examples: |
+    - What are the short-term goals of the Computer Science Engineering department?
+    - Computer Science Engineering department short-term goals
+    - Short-term goals for Computer Science Engineering
+    - Short-term goals for Cse
+
+- intent: computer_science_engineering_long_term_goals
+  examples: |
+    - What are the long-term goals of the Computer Science Engineering department?
+    - Computer Science Engineering department long-term goals
+    - Long-term goals for Computer Science Engineering
+    - Long-term goals for Cse
+
+
+
+- intent: computer_science_infrastructure_facilities
+  examples: |
+    - What are the infrastructure and facilities available in the Computer Science Engineering department?
+    - Tell me about the facilities in the Computer Science Engineering department.
+    - Does the Computer Science Engineering department have multimedia projectors?
+    - Describe the infrastructure of the Computer Science Engineering department.
+
+- intent: computer_science_department_library
+  examples: |
+    - What resources are available in the Computer Science Engineering department library?
+    - Tell me about the department library for Computer Science Engineering.
+    - What books and materials are in the Computer Science Engineering department library?
+    - Describe the library in the Computer Science Engineering department.
+
+- intent: computer_science_teaching_staff_details
+  examples: |
+    - Who are the teaching staff in the Computer Science Engineering department?
+    - Tell me about the faculty in the Computer Science Engineering department.
+    - List the professors in the Computer Science Engineering department.
+    - Who teaches in the Computer Science Engineering department?
+
+- intent: computer_science_technical_supporting_staff_details
+  examples: |
+    - Who are the technical staff in the Computer Science Engineering department?
+    - Tell me about the supporting staff in the Computer Science Engineering department.
+    - List the technical staff in the Computer Science Engineering department.
+    - Who are the assistants in the Computer Science Engineering department?
+
+- intent: computer_science_supporting_staff_details
+  examples: |
+    - Who are the supporting staff in the Computer Science Engineering department?
+    - Tell me about the supporting staff in the Computer Science Engineering department.
+    - List the supporting staff in the Computer Science Engineering department.
+    - Who are the attenders in the Computer Science Engineering department?
+
+- intent: computer_science_all_staff_details
+  examples: |
+    - Who are the staff members in the Computer Science Engineering department?
+    - Tell me about the staff in the Computer Science Engineering department.
+    - List all staff members in the Computer Science Engineering department.
+    - Who are the faculty and supporting staff in the Computer Science Engineering department?
+
+- intent: computer_science_student_learning_resources
+  examples: |
+    - Tell me about student learning resources
+    - What resources are available for student learning?
+    - Can you provide information on learning resources?
+
+- intent: computer_science_achievements
+  examples: |
+    - What achievements does the Computer Science Engineering department have?
+    - Can you share the department's achievements?
+    - Tell me about the accomplishments of the department.
+
+- intent: computer_science_research_initiatives
+  examples: |
+    - What research initiatives are being undertaken?
+    - Can you tell me about the research projects?
+    - What are the current research initiatives in the department?
+
+- intent: computer_science_industry_interface
+  examples: |
+    - How does the department interface with industry?
+    - Can you explain the industry collaborations?
+    - What industry connections does the department have?
+
+- intent: computer_science_placement
+  examples: |
+    - What are the placement opportunities for Computer Science engineering students?
+    - Can you provide details about placements?
+    - How successful are graduates in finding placements?
+
+- intent: computer_science_co_curricular_activities
+  examples: |
+    - What co-curricular and extra-curricular activities are available?
+    - Can you list the activities for students?
+    - What opportunities are there for involvement outside of class?
+
+- intent: computer_science_teachers_analysis
+  examples: |
+    - Can you provide analysis on teachers' teaching effectiveness?
+    - What is the teaching analysis for faculty?
+    - How are the teachers evaluated?
+
+- intent: computer_science_calendar_events
+  examples: |
+    - What events are scheduled for this semester?
+    - Can you share the calendar of events?
+    - What upcoming events should I know about?
+
+- intent: computer_science_counseling_module
+  examples: |
+    - Is there a counseling module for students?
+    - What counseling services are available?
+    - Can you tell me about the student counseling module?
+
+- intent: computer_science_e_newsletter
   examples: |
     - How can I access the e-newsletter?
     - Can you tell me about the e-newsletter?
